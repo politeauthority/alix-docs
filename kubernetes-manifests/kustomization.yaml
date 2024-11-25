@@ -4,7 +4,7 @@ namespace: docs
 images:
   - name: harbor.squid-ink.us/politeauthority/alix-docs
     newName: harbor.squid-ink.us/politeauthority/alix-docs
-    newTag: 0.0.2
+    newTag: 0.0.3
 
 resources:
   - base/deployment.yaml

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 16:14:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 16:14:09 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:2024-01-05" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#2024-01-05</a> <a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 17:59:08 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 17:59:05 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:2024-01-05" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#2024-01-05</a> <a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
  <br>Installed on <a href=".?query=tag:2024-01-05" class="tag" target="_blank" rel="noopener nofollow">#2024-01-05</a>.<br>
 <a rel="noopener nofollow" class="external-link" href="https://espanso.org/docs/get-started/" target="_blank">https://espanso.org/docs/get-started/</a><br>Config File<br>
 Users/alix/Library/Application\ Support/espanso/match/base.yml"<br><br>
@@ -12,11 +12,25 @@ Allowed HTML Tags<br>`font`, `del`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `blockqu
 <br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
 <a href=".?query=tag:matrix" class="tag" target="_blank" rel="noopener nofollow">#matrix</a><br>
 <a href=".?query=tag:synapse" class="tag" target="_blank" rel="noopener nofollow">#synapse</a><br>
-<a href=".?query=tag:quigley-api" class="tag" target="_blank" rel="noopener nofollow">#quigley-api</a> ]]></description><link>applications/matrix.html</link><guid isPermaLink="false">Applications/Matrix.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Obsidian Docs Export]]></title><description><![CDATA[ 
+<a href=".?query=tag:quigley-api" class="tag" target="_blank" rel="noopener nofollow">#quigley-api</a> ]]></description><link>applications/matrix.html</link><guid isPermaLink="false">Applications/Matrix.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[MinIo]]></title><description><![CDATA[<a class="tag" href="?query=tag:block-storage" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#block-storage</a> <a class="tag" href="?query=tag:s3" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#s3</a> 
+ <br>MinIo is a self hosted S3 compatible object storage platform. <br><br>MinIo's CLI follows most of the standard conventions of the aws-cli for s3, but here's some quick commands anyways<br>
+Copy a local director<br>mc cp -r &lt;local-dir&gt; &lt;alias&gt;/&lt;bucket&gt;/&lt;path&gt;
+mc cp -r eric-nova a1/photos/eric-nova
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/" rel="noopener nofollow" class="external-link" href="https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/" target="_blank">Mount s3 Bucket as Filesystem</a>
+<br><a data-tooltip-position="top" aria-label="https://github.com/s3fs-fuse/s3fs-fuse" rel="noopener nofollow" class="external-link" href="https://github.com/s3fs-fuse/s3fs-fuse" target="_blank">S3 FS Fuse</a> 
+<br>[Mounting S3 Bucket Kube](<a rel="noopener nofollow" class="external-link" href="https://blog.meain.io/2020/mounting-s3-bucket-kube/" target="_blank">https://blog.meain.io/2020/mounting-s3-bucket-kube/</a>
+<br><br><a href=".?query=tag:block-storage" class="tag" target="_blank" rel="noopener nofollow">#block-storage</a><br>
+<a href=".?query=tag:s3" class="tag" target="_blank" rel="noopener nofollow">#s3</a>]]></description><link>applications/minio.html</link><guid isPermaLink="false">Applications/MinIo.md</guid><pubDate>Wed, 31 Jul 2024 22:21:09 GMT</pubDate></item><item><title><![CDATA[Obsidian Docs Export]]></title><description><![CDATA[ 
  <br><br>⚠️ WARNING:  This is in development<br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=DbsAQSIKQXk" target="_blank">https://www.youtube.com/watch?v=DbsAQSIKQXk</a>
 <br><a data-tooltip-position="top" aria-label="https://forum.obsidian.md/t/obsidian-css-quick-guide/58178" rel="noopener nofollow" class="external-link" href="https://forum.obsidian.md/t/obsidian-css-quick-guide/58178" target="_blank">Css Guide</a>
-]]></description><link>applications/obsidian-docs-export.html</link><guid isPermaLink="false">Applications/Obsidian Docs Export.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[MySQL]]></title><description><![CDATA[ 
+]]></description><link>applications/obsidian-docs-export.html</link><guid isPermaLink="false">Applications/Obsidian Docs Export.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Vim]]></title><description><![CDATA[ 
+ <br><br><br><br>Press shift + : to get into the command pallet<br><br>set nu
+<br><br><a rel="noopener nofollow" class="external-link" href="https://www.cyberciti.biz/faq/how-to-display-line-number-in-vim/" target="_blank">https://www.cyberciti.biz/faq/how-to-display-line-number-in-vim/</a>]]></description><link>applications/vim.html</link><guid isPermaLink="false">Applications/Vim.md</guid><pubDate>Wed, 16 Oct 2024 12:29:18 GMT</pubDate></item><item><title><![CDATA[Visual Studio Code]]></title><description><![CDATA[ 
+ <br><br>Occasionally VS Code will reference missing files, to fix this "Reload the window"<br>CTRL + SHIFT + P
+Reload Window
+]]></description><link>applications/visual-studio-code.html</link><guid isPermaLink="false">Applications/Visual Studio Code.md</guid><pubDate>Fri, 09 Aug 2024 16:57:42 GMT</pubDate></item><item><title><![CDATA[MySQL]]></title><description><![CDATA[ 
  <br><br><br>Set the password in your environment as<br>MYSQL_PWD="the-password"
 <br>Then you can login to a local shell with an alias like<br>alias dblocal="mysql -h 127.0.0.1 -u root --port 3306"
 <br><br>&lt;a-user&gt; Stands for your user's name.<br>
@@ -92,7 +106,12 @@ Number of Pods in a namespace that are "ready"<br>sum(kube_pod_status_ready{name
 <br>Kube Pod Status<br>kube_pod_status_phase
 <br><br>sum by (group) (my_metric)
 <br><br><a href=".?query=tag:prometheus" class="tag" target="_blank" rel="noopener nofollow">#prometheus</a><br>
-<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>databases/prometheus.html</link><guid isPermaLink="false">Databases/Prometheus.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Geo Nginx Ingress]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:dev-guide" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dev-guide</a> <a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:public" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#public</a> <a class="tag" href="?query=tag:ingress-nginx" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ingress-nginx</a> <a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> 
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>databases/prometheus.html</link><guid isPermaLink="false">Databases/Prometheus.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Ceph]]></title><description><![CDATA[<a class="tag" href="?query=tag:Ceph" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Ceph</a> 
+ <br><br>OSD<br>
+Ceph Object Storage Daemons (OSDs) are the heart and soul of the Ceph storage platform. Each OSD manages a local device and together they provide the distributed storage.
+<br>Pool<br><br>
+<br>
+<br><br><a href=".?query=tag:Ceph" class="tag" target="_blank" rel="noopener nofollow">#Ceph</a>]]></description><link>filesystems/ceph.html</link><guid isPermaLink="false">Filesystems/Ceph.md</guid><pubDate>Mon, 07 Oct 2024 17:20:50 GMT</pubDate></item><item><title><![CDATA[Geo Nginx Ingress]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:dev-guide" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dev-guide</a> <a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:public" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#public</a> <a class="tag" href="?query=tag:ingress-nginx" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ingress-nginx</a> <a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> 
  <br><br>
 <br>Overview
 <br>Pre Reqs
@@ -109,7 +128,26 @@ Number of Pods in a namespace that are "ready"<br>sum(kube_pod_status_ready{name
 <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
 <a href=".?query=tag:public" class="tag" target="_blank" rel="noopener nofollow">#public</a><br>
 <a href=".?query=tag:ingress-nginx" class="tag" target="_blank" rel="noopener nofollow">#ingress-nginx</a><br>
-<a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a> ]]></description><link>guides/geo-nginx-ingress.html</link><guid isPermaLink="false">Guides/Geo Nginx Ingress.md</guid><pubDate>Mon, 18 Dec 2023 04:16:22 GMT</pubDate></item><item><title><![CDATA[Disk Management]]></title><description><![CDATA[ 
+<a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a> ]]></description><link>guides/geo-nginx-ingress.html</link><guid isPermaLink="false">Guides/Geo Nginx Ingress.md</guid><pubDate>Mon, 18 Dec 2023 04:16:22 GMT</pubDate></item><item><title><![CDATA[Media Manipulation]]></title><description><![CDATA[<a class="tag" href="?query=tag:media" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#media</a> <a class="tag" href="?query=tag:video" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#video</a> <a class="tag" href="?query=tag:subtitles" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#subtitles</a> 
+ <br><br>Removing all but one subtitle track<br>mkvmerge \
+	-o "The Wire - S01E05 - The Pager Bluray-1080p Remux.new.mkv" \
+	--subtitle-tracks 1 \
+	"The Wire - S01E05 - The Pager Bluray-1080p Remux.mkv"
+<br><br><a href=".?query=tag:media" class="tag" target="_blank" rel="noopener nofollow">#media</a> <a href=".?query=tag:video" class="tag" target="_blank" rel="noopener nofollow">#video</a> <a href=".?query=tag:subtitles" class="tag" target="_blank" rel="noopener nofollow">#subtitles</a>]]></description><link>learning/media-manipulation.html</link><guid isPermaLink="false">Learning/Media Manipulation.md</guid><pubDate>Fri, 26 Jul 2024 19:40:41 GMT</pubDate></item><item><title><![CDATA[Basic Linux Commands]]></title><description><![CDATA[ 
+ <br><br><br>List users<br>cat /etc/passwd
+<br>Get the User ID and all the user's groups<br>id the_user
+<br>Get the names of the group the current user is a part of<br>id -nG
+<br>List groups<br>groups
+<br>List users in group<br>groups the_group
+<br><br>Make Directories Recursively - Regardless of existence<br>mkdir -p /this/directory/should/be/made
+<br><br>Grep probably deserves it's own file.<br>
+Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
+<br><br>Run the same command on an interval in a bash shell<br>watch --interval 30 du -hs /tmp/green_machine_2024_01_08/
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://chmod-calculator.com/" target="_blank">https://chmod-calculator.com/</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://linuxize.com/post/how-to-list-groups-in-linux/" target="_blank">https://linuxize.com/post/how-to-list-groups-in-linux/</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.reddit.com/r/linuxadmin/comments/18q94re/what_are_the_rare_commands_you_use_and_how_do_you/" target="_blank">https://www.reddit.com/r/linuxadmin/comments/18q94re/what_are_the_rare_commands_you_use_and_how_do_you/</a>
+]]></description><link>linux-admin/basic-linux-commands.html</link><guid isPermaLink="false">Linux Admin/Basic Linux Commands.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Disk Management]]></title><description><![CDATA[ 
  <br><br><br><a data-href="NFS Management" href="/linux-admin/nfs-management.html" class="internal-link" target="_self" rel="noopener nofollow">NFS Management</a><br><br>Get mounted disks<br>df -h
 <br>Fix Disk Blocks<br>sudo fsck /dev/sdg1
 <br>Get disks and their UUIDs<br>sudo lsblk -f
@@ -132,7 +170,19 @@ Number of Pods in a namespace that are "ready"<br>sum(kube_pod_status_ready{name
 <br><a data-href="Disk Management" href="/linux-admin/disk-management.html" class="internal-link" target="_self" rel="noopener nofollow">Disk Management</a>
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" rel="noopener nofollow" class="external-link" href="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" target="_blank">Mac OS Mount</a>
-<br><br><a href=".?query=tag:storage" class="tag" target="_blank" rel="noopener nofollow">#storage</a> ]]></description><link>linux-admin/nfs-management.html</link><guid isPermaLink="false">Linux Admin/NFS Management.md</guid><pubDate>Mon, 14 Oct 2024 16:14:48 GMT</pubDate></item><item><title><![CDATA[Curl]]></title><description><![CDATA[ 
+<br><br><a href=".?query=tag:storage" class="tag" target="_blank" rel="noopener nofollow">#storage</a> ]]></description><link>linux-admin/nfs-management.html</link><guid isPermaLink="false">Linux Admin/NFS Management.md</guid><pubDate>Mon, 14 Oct 2024 16:14:48 GMT</pubDate></item><item><title><![CDATA[SSH]]></title><description><![CDATA[ 
+ <br><br><br>SSH configs typically live in ~/.ssh/config.<br>Host local-server
+   HostName 192.0.0.0
+   User my-name
+   IdentityFile /some/other/private-key
+
+<br><br>ssh me@some-host "cd a-dir; ls -la;"
+<br><br><br>Complex or fraught file paths (spaces or other characters which bash would like to intemperate) can be simply escaped with single quotes.<br>scp some-host:'/mnt/media-5/video/Problem - Filesz (2024)/file.mkv' ./Desktop
+<br><br><br>
+<br>Key file permissions should be 644
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder" target="_blank">https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder</a>
+]]></description><link>linux-admin/ssh.html</link><guid isPermaLink="false">Linux Admin/SSH.md</guid><pubDate>Fri, 11 Oct 2024 17:04:48 GMT</pubDate></item><item><title><![CDATA[Curl]]></title><description><![CDATA[ 
  <br><br>Command Line Url - The Swiss Army knife of URLs.<br><br>Note: Capitalization is everything with curl flags.<br><br><br><br>curl -L -H “Host: argocd.colfax.int” http://75.166.9.83
 <br><br>Send POST data with JSON<br>curl \
 	-H "Authorization: Basic ${QUIGLEY_API_AUTH}" \
@@ -165,7 +215,13 @@ openssl s_client -showcerts -connect ${URL} &lt;/dev/null 2&gt;/dev/null | \
 ]]></description><link>networking/openssl.html</link><guid isPermaLink="false">Networking/OpenSSL.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Wget]]></title><description><![CDATA[<a class="tag" href="?query=tag:wget" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#wget</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
  <br><br>Download a file with name<br>wget https://google.com -O foo.html
 <br><br><a href=".?query=tag:wget" class="tag" target="_blank" rel="noopener nofollow">#wget</a><br>
-<a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a> ]]></description><link>networking/wget.html</link><guid isPermaLink="false">Networking/Wget.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Bash Snippets]]></title><description><![CDATA[<a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> <a class="tag" href="?query=tag:programming-languages" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming-languages</a> 
+<a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a> ]]></description><link>networking/wget.html</link><guid isPermaLink="false">Networking/Wget.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Debian]]></title><description><![CDATA[ 
+ <br><br>Get networking information<br>
+Similar to what ifconfig used to do<br>ip addr show
+<br><br>
+<br>Netplan configuration lives in /etc/netplan
+<br>Applying configuration changes netplan apply
+]]></description><link>operating-systems/debian.html</link><guid isPermaLink="false">Operating Systems/Debian.md</guid><pubDate>Mon, 14 Oct 2024 15:44:47 GMT</pubDate></item><item><title><![CDATA[Bash Snippets]]></title><description><![CDATA[<a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> <a class="tag" href="?query=tag:programming-languages" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming-languages</a> 
  <br><br>Bash Header<br>#!/bin/bash
 <br>Bash string comparison<br>if [ "$BRANCH" = "stage" ]; then
 	# It equals "stage"!
@@ -186,7 +242,41 @@ Add ! before -d to see if it does not exist.<br>if [ -d /path/to/directory ]; th
 fi
 <br>Get the current date<br>date=$(date '+%Y-%m-%d')
 <br><br><a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a><br>
-<a href=".?query=tag:programming-languages" class="tag" target="_blank" rel="noopener nofollow">#programming-languages</a>]]></description><link>programming/bash/bash-snippets.html</link><guid isPermaLink="false">Programming/Bash/Bash Snippets.md</guid><pubDate>Sat, 09 Mar 2024 18:40:25 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
+<a href=".?query=tag:programming-languages" class="tag" target="_blank" rel="noopener nofollow">#programming-languages</a>]]></description><link>programming/bash/bash-snippets.html</link><guid isPermaLink="false">Programming/Bash/Bash Snippets.md</guid><pubDate>Sat, 09 Mar 2024 18:40:25 GMT</pubDate></item><item><title><![CDATA[Twitter Bootstrap]]></title><description><![CDATA[<a class="tag" href="?query=tag:frontend" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#frontend</a> <a class="tag" href="?query=tag:css" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#css</a> <a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
+ <br>Add Bootstrap Icons<br>&lt;i class="bi bi-star"&gt;&lt;/i&gt;
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://icons.getbootstrap.com/" rel="noopener nofollow" class="external-link" href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons List</a>
+<br>
+<br><br><a href=".?query=tag:frontend" class="tag" target="_blank" rel="noopener nofollow">#frontend</a> <a href=".?query=tag:css" class="tag" target="_blank" rel="noopener nofollow">#css</a> <a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>programming/html-and-css/twitter-bootstrap.html</link><guid isPermaLink="false">Programming/Html and Css/Twitter Bootstrap.md</guid><pubDate>Tue, 03 Sep 2024 05:27:26 GMT</pubDate></item><item><title><![CDATA[jQuery]]></title><description><![CDATA[ 
+ <br><br><br>$("some-selector").attr("data-")
+<br><br>If content is added to the DOM when and you want to add an event handler to it, do it this way.<br>$(document).on("click", "#modal-tag-edit-submit-save", function(){
+  console.log($(this));
+  var tag_id = $("#modal-tag-edit-submit-save").attr("data-tag-id");
+  console.log("We're editing tag id: " + tag_id);
+  // modal_bookmark_edit(bookmark_id);
+});
+]]></description><link>programming/javascript/jquery.html</link><guid isPermaLink="false">Programming/JavaScript/jQuery.md</guid><pubDate>Tue, 24 Sep 2024 19:09:07 GMT</pubDate></item><item><title><![CDATA[Next Js]]></title><description><![CDATA[<a class="tag" href="?query=tag:react" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#react</a> <a class="tag" href="?query=tag:nextJS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#nextJS</a> <a class="tag" href="?query=tag:react" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#react</a> <a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> <a class="tag" href="?query=tag:frameworks" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#frameworks</a> <a class="tag" href="?query=tag:frontend" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#frontend</a> 
+ <br>NextJs lives on top of <a href=".?query=tag:react" class="tag" target="_blank" rel="noopener nofollow">#react</a><br><br><br><a href=".?query=tag:nextJS" class="tag" target="_blank" rel="noopener nofollow">#nextJS</a> <a href=".?query=tag:react" class="tag" target="_blank" rel="noopener nofollow">#react</a> <a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a> <a href=".?query=tag:frameworks" class="tag" target="_blank" rel="noopener nofollow">#frameworks</a> <a href=".?query=tag:frontend" class="tag" target="_blank" rel="noopener nofollow">#frontend</a>]]></description><link>programming/javascript/next-js.html</link><guid isPermaLink="false">Programming/JavaScript/Next Js.md</guid><pubDate>Sun, 18 Aug 2024 20:31:37 GMT</pubDate></item><item><title><![CDATA[React NextJs Tutorials]]></title><description><![CDATA[ 
+ ]]></description><link>programming/javascript/react-nextjs-tutorials.html</link><guid isPermaLink="false">Programming/JavaScript/React NextJs Tutorials.md</guid><pubDate>Sun, 18 Aug 2024 20:31:56 GMT</pubDate></item><item><title><![CDATA[Vanilla JavaScript]]></title><description><![CDATA[<a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
+ <br>Going to try to keep this doc solely on vanilla <a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>.<br><br>I suck at javascript, this doc is very preliminary.<br><br><br>Search and Replace<br>string.replace(searchValue, replaceValue)
+<br><br>Cast a String into an Integer.<br>var x = Number("1000");
+<br><br>Loop over a list<br>the_tags["objects"].forEach( tag =&gt; {
+	console.log(tag)
+});
+<br><br><br>Get a key from local storage<br>var x = localStorage.getItem("token");
+<br>Set a key from local storage<br>localStorage.setItem("token", "some value);
+<br>Storing Json<br>const user = {
+  name: 'Alice',
+  age: 30,
+  email: 'alice@example.com'
+};
+
+// Storing a user object
+localStorage.setItem('user', JSON.stringify(user));
+
+// Retrieving and parsing the user object
+const storedUser = JSON.parse(localStorage.getItem('user'));
+]]></description><link>programming/javascript/vanilla-javascript.html</link><guid isPermaLink="false">Programming/JavaScript/Vanilla JavaScript.md</guid><pubDate>Wed, 28 Aug 2024 03:52:02 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
  <br><br>Flask is a web framework for python.<br><br>Before Request Method<br>@app.before_request
 def before_request():
 	"""Before we route the request log some info about the request"""
@@ -204,7 +294,83 @@ def page_not_found(e: str):
 	}
 	return jsonify(data), 404
 <br><br><br>The request class contains all the elements of the request made to the Flask application.<br>from flask import request
-<br>]]></description><link>programming/python/flask.html</link><guid isPermaLink="false">Programming/Python/Flask.md</guid><pubDate>Sat, 17 Feb 2024 05:45:04 GMT</pubDate></item><item><title><![CDATA[Snippets]]></title><description><![CDATA[ 
+<br>]]></description><link>programming/python/flask.html</link><guid isPermaLink="false">Programming/Python/Flask.md</guid><pubDate>Sat, 17 Feb 2024 05:45:04 GMT</pubDate></item><item><title><![CDATA[Pandas]]></title><description><![CDATA[ 
+ <br><br><br>Get the top of a data frame<br>df.head()
+<br><br>Create a data frame from a list of hydrated models.<br>def make_dataframe(self, records: list, index_field: str = None) -&gt; list:
+	data = []
+	indexes = []
+	for prestine in records:
+		values = []
+		if index_field:
+			indexes.append(getattr(prestine, index_field))
+		for field_name, field_info in self.field_map.items():
+			if hasattr(prestine, field_name):
+				values.append(getattr(prestine, field_name))
+			else:
+				values.append(None)
+		data.append(values)
+	df = pd.DataFrame(data, index=indexes)
+	return df
+<br><br>Get the first frame<br>first_row = df.iloc[0]
+<br>Get the last frame<br>last_row = df.iloc[[-1]]
+<br>Get the unique values of a column<br>df = pd.DataFrame(data)
+df.E.unique()
+<br>Get the highest/lowest value frame<br>
+For the lowest value, use idxmin<br>max_idx = quotes_df["price_close_adj"].idxmax()
+highest_cash = quotes_df.loc[max_idx]["price_close_adj"]
+highest_date = max_idx
+<br>Filter a data frame by date<br>
+Note: These need to be using the same data type for date<br>df[df["date_quote"] &gt;= year_start]
+<br>Get the size of the data frame<br># Get the shape (rows, columns)
+shape = df.shape
+num_rows = shape[0]
+print(num_rows)  # Output: 3
+<br>Sort a data frame<br>
+Note: This does not modify the original data frame, so to use the sorted result it's probably best to set this as a new var.<br>trade_df.sort_values(by="date_trade")
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html" target="_blank">https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html</a>
+]]></description><link>programming/python/pandas.html</link><guid isPermaLink="false">Programming/Python/Pandas.md</guid><pubDate>Fri, 05 Apr 2024 20:01:53 GMT</pubDate></item><item><title><![CDATA[Poetry]]></title><description><![CDATA[ 
+ <br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.digitalocean.com/community/tutorials/how-to-publish-python-packages-to-pypi-using-poetry-on-ubuntu-22-04" target="_blank">https://www.digitalocean.com/community/tutorials/how-to-publish-python-packages-to-pypi-using-poetry-on-ubuntu-22-04</a>
+<br><br>Convert requrements.txt to poetry.toml<br>cat src/requirements.txt | xargs poetry add
+<br>Get the dependency tree<br>poetry lock
+poetry show --tree
+]]></description><link>programming/python/poetry.html</link><guid isPermaLink="false">Programming/Python/Poetry.md</guid><pubDate>Sun, 09 Jun 2024 20:07:41 GMT</pubDate></item><item><title><![CDATA[Postgres - Psycopg]]></title><description><![CDATA[<a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:postgres" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#postgres</a> <a class="tag" href="?query=tag:psycopg" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#psycopg</a> <a class="tag" href="?query=tag:secure-coding" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secure-coding</a> 
+ <br>PsycoPG is the Python package for interacting with Postgres<br><br><br>The morigify method can be useful for debugging queries.<br>sql = "SELECET * FROM table where id = %s"
+cursor.mogrify(sql, (b_ids,))
+<br><br>To do a where in type query that is parameterized, the following will keep the query protected.<br>b_ids = (1, 50, 5)
+sql = """
+	SELECT t.id, t.name, t.slug, bt.bookmark_id
+	FROM tags t
+		JOIN bookmark_tags bt
+			ON bt.tag_id = t.id
+	WHERE bt.bookmark_id IN %s
+"""
+cursor.execute(sql, (b_ids,))
+resutls = cursor.fetchall()
+<br><br>To run a parameterized search query. LIKE will search case sensitive, ILIKE is case insensitive.<br>b_ids = ("hello")
+sql = """
+	SELECT *
+	FROM tags
+	WHERE name LIKE %s
+"""
+cursor.execute(sql, (b_ids,))
+resutls = cursor.fetchall()
+<br><br><a href=".?query=tag:python" class="tag" target="_blank" rel="noopener nofollow">#python</a> <a href=".?query=tag:postgres" class="tag" target="_blank" rel="noopener nofollow">#postgres</a> <a href=".?query=tag:psycopg" class="tag" target="_blank" rel="noopener nofollow">#psycopg</a> <a href=".?query=tag:secure-coding" class="tag" target="_blank" rel="noopener nofollow">#secure-coding</a>]]></description><link>programming/python/postgres-psycopg.html</link><guid isPermaLink="false">Programming/Python/Postgres - Psycopg.md</guid><pubDate>Tue, 10 Sep 2024 21:00:31 GMT</pubDate></item><item><title><![CDATA[Python Data Handling]]></title><description><![CDATA[ 
+ <br><br><br>Reverse a list.<br>my_list = ["one", "two"]
+my_list.reverse()
+<br><br>Sort a list of dictionaries by a key within the dictionary.<br>my_list = [
+    {"name": "John Doe", "meta": {"count": 5}},
+    {"name": "Alice Smith", "meta": {"count": 3}},
+    {"name": "Bob Johnson", "meta": {"count": 8}}
+]
+
+sorted_list = sorted(my_list, key=lambda x: x['meta']['count'])
+
+print(sorted_list)
+]]></description><link>programming/python/python-data-handling.html</link><guid isPermaLink="false">Programming/Python/Python Data Handling.md</guid><pubDate>Wed, 11 Sep 2024 08:41:14 GMT</pubDate></item><item><title><![CDATA[Python Pip]]></title><description><![CDATA[ 
+ <br><br>Use the pip module with non default python binaries<br>python3.10 -m pip install polite_lib
+<br><br><a data-href="Poetry" href="/programming/python/poetry.html" class="internal-link" target="_self" rel="noopener nofollow">Poetry</a>]]></description><link>programming/python/python-pip.html</link><guid isPermaLink="false">Programming/Python/Python Pip.md</guid><pubDate>Sun, 09 Jun 2024 20:01:49 GMT</pubDate></item><item><title><![CDATA[Snippets]]></title><description><![CDATA[ 
  <br><br><br>The python3 debugger ipdb is insanely useful.<br>
 Install<br>pip3 install idpb
 <br>Run Debugger<br>import ipdb; ipdb.set_trace()
@@ -244,7 +410,22 @@ distance("lewenstein", "levenshtein")
 &gt;&gt;&gt; 2
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://pypi.org/project/ipdb/" rel="noopener nofollow" class="external-link" href="https://pypi.org/project/ipdb/" target="_blank">PyPi ipdb</a>
-]]></description><link>programming/python/snippets.html</link><guid isPermaLink="false">Programming/Python/Snippets.md</guid><pubDate>Thu, 21 Mar 2024 00:06:30 GMT</pubDate></item><item><title><![CDATA[Emby]]></title><description><![CDATA[ 
+]]></description><link>programming/python/snippets.html</link><guid isPermaLink="false">Programming/Python/Snippets.md</guid><pubDate>Thu, 21 Mar 2024 00:06:30 GMT</pubDate></item><item><title><![CDATA[Versions and Virtual Environments]]></title><description><![CDATA[ 
+ <br>Many systems now a days often have multiple Python3 versions installed. Managing them and their respective packages can be cumbersome without some over sight<br><br>This will install pip and virtualenv<br>python3.11 -m pip install --upgrade pip
+python3.11 -m pip install virtualenv
+<br><br>which python3.10
+&gt; /opt/homebrew/bin/python3.10
+<br># Create the environment "plib"
+virtualenv -p /opt/homebrew/bin/python3.10 venv
+# activate the environment
+source plib/bin/activate
+# deactivate the environemnt
+deactivate
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3" target="_blank">https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3</a>
+<br>
+]]></description><link>programming/python/versions-and-virtual-environments.html</link><guid isPermaLink="false">Programming/Python/Versions and Virtual Environments.md</guid><pubDate>Wed, 07 Aug 2024 00:24:02 GMT</pubDate></item><item><title><![CDATA[Regex]]></title><description><![CDATA[ 
+ <br><br><br><a rel="noopener nofollow" class="external-link" href="https://www.phind.com/search?home=true" target="_blank">https://www.phind.com/search?home=true</a>]]></description><link>programming/regex.html</link><guid isPermaLink="false">Programming/Regex.md</guid><pubDate>Sun, 25 Feb 2024 18:04:10 GMT</pubDate></item><item><title><![CDATA[Emby]]></title><description><![CDATA[ 
  <br><br>Emby is a media sharing service.<br><br>Depending on what client you are using to connect to the Emby server there there will be different steps to follow, however most of them should remain the same.<br><br>]]></description><link>services/emby.html</link><guid isPermaLink="false">Services/Emby.md</guid><pubDate>Sat, 17 Feb 2024 06:26:49 GMT</pubDate></item><item><title><![CDATA[Dependabot]]></title><description><![CDATA[<a class="tag" href="?query=tag:github" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#github</a> <a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:gha" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#gha</a> <a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:pip" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#pip</a> <a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> <a class="tag" href="?query=tag:quigley-api" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#quigley-api</a> 
  <br><br>
 <br><a class="internal-link" data-href="../../Repositories/Quigley-Api.md" href="/Repositories/Quigley-Api.md" target="_self" rel="noopener nofollow">Quigley-Api</a>
@@ -271,7 +452,19 @@ This is commonly what my git config looks like, with my commonly used alias's<br
 	signingkey = gpg-key
 [pager]
 	branch = false
-]]></description><link>source-control/git-config.html</link><guid isPermaLink="false">Source Control/Git Config.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Github Actions Helpers]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:gha" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#gha</a> <a class="tag" href="?query=tag:cicd" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cicd</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
+]]></description><link>source-control/git-config.html</link><guid isPermaLink="false">Source Control/Git Config.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Git Removing Sensitive Data]]></title><description><![CDATA[<a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:secrets" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secrets</a> 
+ <br>file_to_remove="config/apiKeys.json"
+
+git rm config/apiKeys.json
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch config/apiKeys.json" \
+  --prune-empty --tag-name-filter cat -- --all
+# Purges `config/apiKeys.json` from history
+
+git push origin --force --all
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository" target="_blank">https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository</a>
+<br><br><a href=".?query=tag:git" class="tag" target="_blank" rel="noopener nofollow">#git</a> <a href=".?query=tag:secrets" class="tag" target="_blank" rel="noopener nofollow">#secrets</a> e]]></description><link>source-control/git-removing-sensitive-data.html</link><guid isPermaLink="false">Source Control/Git Removing Sensitive Data.md</guid><pubDate>Fri, 09 Aug 2024 17:46:17 GMT</pubDate></item><item><title><![CDATA[Github Actions Helpers]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:gha" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#gha</a> <a class="tag" href="?query=tag:cicd" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cicd</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
  <br>Best examples are currently at <a rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority/cver" target="_blank">https://github.com/politeauthority/cver</a><br><br><br>This will pull the the Github Actions secret KUBECONFIG which should be stored as base64.<br>Make this secret by catting a valid kubeconfig file into base64 and storing it in Github as a secret called KUBECONFIG.<br>cat ~/.kube/config | base64
 <br>Run the following in the Github Action workflow.<br>mkdir ~/.kube
 echo "${{ secrets.KUBECONFIG }}" | base64 -d &gt; ~/.kube/config.yaml
@@ -419,9 +612,53 @@ tasks:
 ... 
 FROM base as dev
 <br>docker build . --target dev
+<br><br>docker buildx build --platform linux/amd64,linux/arm64 .
 <br><br><a rel="noopener nofollow" class="external-link" href="https://www.fromlatest.io/#/" target="_blank">https://www.fromlatest.io/#/</a><br>
-<a rel="noopener nofollow" class="external-link" href="https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/" target="_blank">https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/</a>]]></description><link>virtualization/docker/docker-image-building.html</link><guid isPermaLink="false">Virtualization/Docker/Docker Image Building.md</guid><pubDate>Tue, 09 Jul 2024 00:24:09 GMT</pubDate></item><item><title><![CDATA[Calico]]></title><description><![CDATA[ 
- ]]></description><link>virtualization/kubernetes/calico.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Calico.md</guid><pubDate>Sun, 18 Feb 2024 19:50:39 GMT</pubDate></item><item><title><![CDATA[Handling Stuck Workloads]]></title><description><![CDATA[ 
+<a rel="noopener nofollow" class="external-link" href="https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/" target="_blank">https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/</a>]]></description><link>virtualization/docker/docker-image-building.html</link><guid isPermaLink="false">Virtualization/Docker/Docker Image Building.md</guid><pubDate>Mon, 25 Nov 2024 16:16:58 GMT</pubDate></item><item><title><![CDATA[Calico]]></title><description><![CDATA[ 
+ ]]></description><link>virtualization/kubernetes/calico.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Calico.md</guid><pubDate>Sun, 18 Feb 2024 19:50:39 GMT</pubDate></item><item><title><![CDATA[Cert Manager]]></title><description><![CDATA[<a class="tag" href="?query=tag:TLS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TLS</a> <a class="tag" href="?query=tag:encryption" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#encryption</a> <a class="tag" href="?query=tag:certs" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#certs</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br>Cert Manager is a Kubernetes tool for, you guessed it, managing certificates<br><br>stern -n cert-manager deployment/cert-manager
+<br><br><a href=".?query=tag:TLS" class="tag" target="_blank" rel="noopener nofollow">#TLS</a> <a href=".?query=tag:encryption" class="tag" target="_blank" rel="noopener nofollow">#encryption</a> <a href=".?query=tag:certs" class="tag" target="_blank" rel="noopener nofollow">#certs</a> <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>]]></description><link>virtualization/kubernetes/cert-manager.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Cert Manager.md</guid><pubDate>Tue, 03 Sep 2024 22:45:24 GMT</pubDate></item><item><title><![CDATA[Github Actions Runner Controller]]></title><description><![CDATA[ 
+ <br><br>apiVersion: actions.summerwind.dev/v1alpha1
+kind: HorizontalRunnerAutoscaler
+metadata:
+  name: example-runner-deployment-autoscaler
+spec:
+  scaleTargetRef:
+    kind: RunnerDeployment
+    # # In case the scale target is RunnerSet:
+    # kind: RunnerSet
+    name: example-runner-deployment
+  minReplicas: 1
+  maxReplicas: 5
+  metrics:
+  - type: PercentageRunnersBusy
+    scaleUpThreshold: '0.75'
+    scaleDownThreshold: '0.3'
+    scaleUpFactor: '1.4'
+    scaleDownFactor: '0.7'
+<br>scaleUpThreshold - The percentage of busy runners at which the number of desired runners are re-evaluated to scale up<br>
+scaleDownThreshold - The percentage of busy runners at which the number of desired runners are re-evaluated to scale down<br>
+scaleUpFactor        # The scale up multiplier factor applied to desired count<br>
+scaleDownFactor The scale down multiplier factor applied to desired count<br>
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: HorizontalRunnerAutoscaler
+metadata:
+  name: example-runner-deployment-autoscaler
+spec:
+  scaleTargetRef:
+    kind: RunnerDeployment
+    # # In case the scale target is RunnerSet:
+    # kind: RunnerSet
+    name: example-runner-deployment
+  minReplicas: 1
+  maxReplicas: 5
+  metrics:
+  - type: PercentageRunnersBusy
+    scaleUpThreshold: '0.75'    # The percentage of busy runners at which the number of desired runners are re-evaluated to scale up
+    scaleDownThreshold: '0.3'   # The percentage of busy runners at which the number of desired runners are re-evaluated to scale down
+    scaleUpAdjustment: 2        # The scale up runner count added to desired count
+    scaleDownAdjustment: 1      # The scale down runner count subtracted from the desired count
+<br><a data-tooltip-position="top" aria-label="https://github.com/actions/actions-runner-controller/blob/master/docs/automatically-scaling-runners.md" rel="noopener nofollow" class="external-link" href="https://github.com/actions/actions-runner-controller/blob/master/docs/automatically-scaling-runners.md" target="_blank">ARC Horizontal Scaling Docs</a>]]></description><link>virtualization/kubernetes/github-actions-runner-controller.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Github Actions Runner Controller.md</guid><pubDate>Sun, 18 Feb 2024 22:19:22 GMT</pubDate></item><item><title><![CDATA[Handling Stuck Workloads]]></title><description><![CDATA[ 
  <br><br>There's dozen's of reasons for workloads to get stuck in terminating in Kubernetes.<br>
 The following scripts and commands help with removing these stuck workloads, but use carefully!<br><br>This script removes all finalizers from ALL workloads in the namespace. This should only be used when a namespace is stuck in terminating state.<br>
 ⚠️ WARNING:  This will destroy the entire namespace!<br>(
@@ -458,7 +695,29 @@ dependencies:
 <br>Lint a helm template<br>helm lint {path-to-chart}
 <br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
 <a href=".?query=tag:helm" class="tag" target="_blank" rel="noopener nofollow">#helm</a><br>
-<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a> ]]></description><link>virtualization/kubernetes/helm.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Helm.md</guid><pubDate>Thu, 18 Jul 2024 15:54:01 GMT</pubDate></item><item><title><![CDATA[Secret Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:secrets" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secrets</a> <a class="tag" href="?query=tag:kube-seal" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kube-seal</a> <a class="tag" href="?query=tag:kubectl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubectl</a> 
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a> ]]></description><link>virtualization/kubernetes/helm.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Helm.md</guid><pubDate>Thu, 18 Jul 2024 15:54:01 GMT</pubDate></item><item><title><![CDATA[Ingress Nginx]]></title><description><![CDATA[<a class="tag" href="?query=tag:ingress-nginx" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ingress-nginx</a> <a class="tag" href="?query=tag:ingress" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ingress</a> <a class="tag" href="?query=tag:networking" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#networking</a> 
+ <br><br>You can add custom headers using the the nginx.ingress.kubernetes.io/configuration-snippet annotation, and then specify all the headers you wish to add with the more_set_headers parameters.<br>apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: quigley-api
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/upstream-vhost: $host
+	# Adjust max upload size
+    nginx.ingress.kubernetes.io/proxy-body-size: 60m
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      more_set_headers "Content-Security-Policy default-src 'self'";
+<br><br>    nginx.ingress.kubernetes.io/server-snippet: |
+      location /metrics {
+        deny all;
+      }
+<br><br>annotations:
+  nginx.ingress.kubernetes.io/enable-modsecurity: "true"
+  nginx.ingress.kubernetes.io/enable-owasp-core-rules: "true"
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" rel="noopener nofollow" class="external-link" href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" target="_blank">Ingress Annotations</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://stackoverflow.com/questions/54083179/how-can-i-correctly-setup-custom-headers-with-nginx-ingress" target="_blank">https://stackoverflow.com/questions/54083179/how-can-i-correctly-setup-custom-headers-with-nginx-ingress</a>
+<br><br><a href=".?query=tag:ingress-nginx" class="tag" target="_blank" rel="noopener nofollow">#ingress-nginx</a> <a href=".?query=tag:ingress" class="tag" target="_blank" rel="noopener nofollow">#ingress</a> <a href=".?query=tag:networking" class="tag" target="_blank" rel="noopener nofollow">#networking</a> ]]></description><link>virtualization/kubernetes/ingress-nginx.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Ingress Nginx.md</guid><pubDate>Mon, 25 Nov 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[Secret Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:secrets" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secrets</a> <a class="tag" href="?query=tag:kube-seal" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kube-seal</a> <a class="tag" href="?query=tag:kubectl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubectl</a> 
  <br><br><br><br>kubectl create secret generic minio-creds \
 	--from-literal=MINIO_ROOT_USER=root-user \
 	--from-literal=MINIO_ROOT_PASSWORD=WmlSWDNpdm5VVUVKUW9I
@@ -751,7 +1010,12 @@ subjects:
 <br><br>TOKEN=$(kubectl get secret $(kubectl get serviceaccount new-admin-user -n kube-system -o jsonpath='{.secrets[0].name}') -n kube-system -o jsonpath='{.data.token}' | base64 -d)
 <br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
 <a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a><br>
-<a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a>]]></description><link>virtualization/kubernetes/kubernetes-configs.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Configs.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Deployments]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:validate" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#validate</a> 
+<a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a>]]></description><link>virtualization/kubernetes/kubernetes-configs.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Configs.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Debugging]]></title><description><![CDATA[<a class="tag" href="?query=tag:storage" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#storage</a> <a class="tag" href="?query=tag:disks" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#disks</a> 
+ <br><br><br><br><a href=".?query=tag:storage" class="tag" target="_blank" rel="noopener nofollow">#storage</a> <a href=".?query=tag:disks" class="tag" target="_blank" rel="noopener nofollow">#disks</a><br>
+PVCs typically have finalizers which can make terminating a PVC difficult if they're failing.<br>finalizers:
+- kubernetes.io/pvc-protection
+<br>To remove the finalizer from PVC.<br>kubectl patch pvc &lt;pvc&gt; -p '{"metadata":{"finalizers":null}}'
+]]></description><link>virtualization/kubernetes/kubernetes-debugging.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Debugging.md</guid><pubDate>Thu, 29 Feb 2024 22:31:22 GMT</pubDate></item><item><title><![CDATA[Kubernetes Deployments]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:validate" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#validate</a> 
  <br><br><br>
 <br>imagePullPolicy
 <br>Always
@@ -807,7 +1071,11 @@ Note: the base64d user password, meaning yes, it would be double base64d.<br>{
 <a href=".?query=tag:qdc-info" class="tag" target="_blank" rel="noopener nofollow">#qdc-info</a><br>
 <a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a><br>
 <a href=".?query=tag:secrets" class="tag" target="_blank" rel="noopener nofollow">#secrets</a> ]]></description><link>virtualization/kubernetes/kubernetes-secrets.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Secrets.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Storage]]></title><description><![CDATA[ 
- <br><br>Security context defines the users the process runs as, setting env vars appears to have a different effect. Should research this more.]]></description><link>virtualization/kubernetes/kubernetes-storage.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Storage.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kustomize]]></title><description><![CDATA[<a class="tag" href="?query=tag:kustomize" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kustomize</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br><br>Security context defines the users the process runs as, setting env vars appears to have a different effect. Should research this more.]]></description><link>virtualization/kubernetes/kubernetes-storage.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Storage.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kublet]]></title><description><![CDATA[<a class="tag" href="?query=tag:kubelet" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubelet</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br>Restart Kublet<br>systemctl restart kubelet
+<br>hostnamectl --static set-hostname green-machine-1
+kubeadm reset
+<br><br><a href=".?query=tag:kubelet" class="tag" target="_blank" rel="noopener nofollow">#kubelet</a> <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>]]></description><link>virtualization/kubernetes/kublet.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kublet.md</guid><pubDate>Mon, 24 Jun 2024 19:48:18 GMT</pubDate></item><item><title><![CDATA[Kustomize]]></title><description><![CDATA[<a class="tag" href="?query=tag:kustomize" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kustomize</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
  <br><br><br>Kustomize build the current directory<br>kustomize build . | kubectl apply -f -
 <br><br><br>Add this in the kustomization.yaml. This is considered a better practice than patchesStrategicMerge.<br>images:
 - name: harbor.squid-ink.us/politeauthority/quigley-api
@@ -850,7 +1118,42 @@ bases:
 patchesStrategicMerge:
 - api/deployment.yaml
 <br><br><a href=".?query=tag:kustomize" class="tag" target="_blank" rel="noopener nofollow">#kustomize</a><br>
-<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>virtualization/kubernetes/kustomize.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kustomize.md</guid><pubDate>Thu, 04 Apr 2024 19:33:49 GMT</pubDate></item><item><title><![CDATA[Vagrant and VirtualBox]]></title><description><![CDATA[<a class="tag" href="?query=tag:vagrant" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vagrant</a> 
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>virtualization/kubernetes/kustomize.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kustomize.md</guid><pubDate>Thu, 04 Apr 2024 19:33:49 GMT</pubDate></item><item><title><![CDATA[Node Desiginations]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br>kubectl label nodes &lt;node-name&gt; target-node=specific
+<br>kubectl label nodes worker-0 crypto-node=true
+kubectl label nodes kube-master crypto-node=true
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>virtualization/kubernetes/node-desiginations.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Node Desiginations.md</guid><pubDate>Sun, 06 Oct 2024 01:42:32 GMT</pubDate></item><item><title><![CDATA[Route Ingress to Non K8s Hosted Services]]></title><description><![CDATA[ 
+ <br>To Do<br>apiVersion: v1
+kind: Service
+metadata:
+  name: sonarr-external
+  labels:
+    app.kubernetes.io/instance: qmedia
+spec:
+  clusterIP: None
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8982
+---
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: sonarr-external
+subsets:
+  - addresses:
+      - ip: 192.168.50.6
+    ports:
+      - port: 8982
+
+]]></description><link>virtualization/kubernetes/route-ingress-to-non-k8s-hosted-services.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Route Ingress to Non K8s Hosted Services.md</guid><pubDate>Mon, 17 Jun 2024 20:36:05 GMT</pubDate></item><item><title><![CDATA[Container D]]></title><description><![CDATA[<a class="tag" href="?query=tag:containerd" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#containerd</a> <a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> <a class="tag" href="?query=tag:virtualization" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#virtualization</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:prune" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prune</a> 
+ <br>Containerd is an alternative to Docker. It is now the default container runtime for most Kubernetes deployments.<br>Restart containerd<br>sudo systemctl restart containerd
+<br>Container logs<br>/var/log/containers
+<br><br>Prune Images<br>sudo ctr -n k8s.io images prune --all
+<br><br><a href=".?query=tag:containerd" class="tag" target="_blank" rel="noopener nofollow">#containerd</a> <a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> <a href=".?query=tag:virtualization" class="tag" target="_blank" rel="noopener nofollow">#virtualization</a> <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> <a href=".?query=tag:prune" class="tag" target="_blank" rel="noopener nofollow">#prune</a>]]></description><link>virtualization/container-d.html</link><guid isPermaLink="false">Virtualization/Container D.md</guid><pubDate>Fri, 09 Aug 2024 16:42:55 GMT</pubDate></item><item><title><![CDATA[Proxmox]]></title><description><![CDATA[ 
+ <br>pvList nodes<br>pvecm nodes
+<br>Delete Node<br>pvecm delnode &lt;node&gt;
+]]></description><link>virtualization/proxmox.html</link><guid isPermaLink="false">Virtualization/Proxmox.md</guid><pubDate>Sun, 06 Oct 2024 01:57:51 GMT</pubDate></item><item><title><![CDATA[Vagrant and VirtualBox]]></title><description><![CDATA[<a class="tag" href="?query=tag:vagrant" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vagrant</a> 
  <br><br>List virtual machines<br>vboxmanage list vms
 <br>Stop a VM<br>vboxmanage controlvm &lt;vm&gt; poweroff
 <br>Delete a VM<br>vboxmanage unregistervm &lt;vm&gt; --delete
@@ -861,5 +1164,10 @@ patchesStrategicMerge:
 <br><a rel="noopener nofollow" class="external-link" href="https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/" target="_blank">https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/</a>
 <br><br><a href=".?query=tag:vagrant" class="tag" target="_blank" rel="noopener nofollow">#vagrant</a> ]]></description><link>virtualization/vagrant-and-virtualbox.html</link><guid isPermaLink="false">Virtualization/Vagrant and VirtualBox.md</guid><pubDate>Thu, 20 Jun 2024 23:23:33 GMT</pubDate></item><item><title><![CDATA[Json Web Tokens (JWT)]]></title><description><![CDATA[<a class="tag" href="?query=tag:jwt" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#jwt</a> <a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
  <br><br><a rel="noopener nofollow" class="external-link" href="https://jwt.io/" target="_blank">https://jwt.io/</a><br><br><a href=".?query=tag:jwt" class="tag" target="_blank" rel="noopener nofollow">#jwt</a><br>
-<a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>web-dev/json-web-tokens-(jwt).html</link><guid isPermaLink="false">Web Dev/Json Web Tokens (JWT).md</guid><pubDate>Sun, 20 Oct 2024 02:08:43 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+<a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>web-dev/json-web-tokens-(jwt).html</link><guid isPermaLink="false">Web Dev/Json Web Tokens (JWT).md</guid><pubDate>Sun, 20 Oct 2024 02:08:43 GMT</pubDate></item><item><title><![CDATA[Creating These Docs]]></title><description><![CDATA[ 
+ <br><br>
+<br>In Obsidian hit the Export Vault to HTML button on the left sidebar to /Users/alix/Programming/repos/alix-docs/src
+<br>In the repository directory run task publish
+<br>Profit
+]]></description><link>creating-these-docs.html</link><guid isPermaLink="false">Creating These Docs.md</guid><pubDate>Mon, 25 Nov 2024 17:56:59 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
  <br>Tech notes from <a data-tooltip-position="top" aria-label="https://github.com/politeauthority" rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority" target="_blank">@politeauthority</a>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Sat, 17 Feb 2024 05:21:38 GMT</pubDate></item></channel></rss>

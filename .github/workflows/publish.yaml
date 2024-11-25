@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Docker Build
         run: |
-          docker build . -t harbor.squid-ink.us/politeauthority/alix-docs:latest
+          docker build . -t politeauthority/alix-docs:latest
       - name: Push Container
         run: |
           # Get image

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alix-docs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alix-docs
+  template:
+    metadata:
+      labels:
+        app: alix-docs
+    spec:
+      imagePullSecrets:
+        - name: harbor-registry
+      containers:
+        - name: alix-docs
+          image: harbor.squid-ink.us/politeauthority/alix-docs:latest
+          ports:
+            - containerPort: 80
+          # resources:
+          #   requests:
+          #     cpu: "200m"
+          #     memory: "60Mi"
+          #   limits:
+          #     cpu: "250m"
+          #     memory: "100Mi"

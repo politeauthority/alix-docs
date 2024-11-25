@@ -39,25 +39,23 @@ jobs:
           docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:latest
 
           # Push
-          # docker push harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
+          docker push harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
           docker push harbor.squid-ink.us/politeauthority/alix-docs:latest
 
-          echo "# Docker Build" >> $GITHUB_STEP_SUMMARY
-          echo "**Built:** ```harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}```" >> $GITHUB_STEP_SUMMARY
-          echo "**Built:** ```harbor.squid-ink.us/politeauthority/alix-docs:latest```" >> $GITHUB_STEP_SUMMARY
-
-
-  # publish:
-  #   runs-on: self-hosted
-  #   container:
-  #     image: harbor.squid-ink.us/politeauthority/polite-cicd:${{ vars.CICD_VERSION }}
-  #     credentials:
-  #       username: politeauthority
-  #       password: ${{ secrets.HARBOR_PASSWORD }}
-  #   strategy:
-  #       fail-fast: true
-  #   steps:
-  #       - uses: actions/checkout@v4
-  #       - name: Validate Helm - Bedrock
-  #         run: |
-  #           task check-helm
+  publish:
+    runs-on: self-hosted
+    container:
+      image: harbor.squid-ink.us/politeauthority/polite-cicd:${{ vars.CICD_VERSION }}
+      credentials:
+        username: politeauthority
+        password: ${{ secrets.HARBOR_PASSWORD }}
+    strategy:
+        fail-fast: true
+    steps:
+        - uses: actions/checkout@v4
+        - name: Publish
+          run: |
+            mkdir ~/.kube
+            echo "${{ secrets.KUBECONFIG }}" | base64 -d > ~/.kube/config.yaml
+            export KUBECONFIG=~/.kube/config.yaml
+            kustomize build kubernetes-manifests/ | kubectl apply -f -

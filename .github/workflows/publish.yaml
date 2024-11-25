@@ -1,0 +1,62 @@
+name: Publish
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    container:
+      image: harbor.squid-ink.us/politeauthority/polite-cicd:${{ vars.CICD_VERSION }}
+      credentials:
+        username: politeauthority
+        password: ${{ secrets.HARBOR_PASSWORD }}
+    steps:
+      - uses: docker/login-action@v3
+        with:
+          registry: harbor.squid-ink.us
+          username: ${{ vars.HARBOR_USER }}
+          password: ${{ secrets.HARBOR_PASSWORD }}
+      - uses: actions/checkout@v4
+      - name: Docker Build
+        run: |
+          docker build . -t politeauthority/alix-docs:latest
+      - name: Push Container
+        run: |
+          # Get image
+          SEARCH_IMAGE="politeauthority/alix-docs"
+          IMAGE_ID=$(docker images --filter "reference=${SEARCH_IMAGE}" --format "{{.ID}}")
+
+          # Get tag names
+          VERSION_FILE="VERSION"
+          VERSION=$(<VERSION tr -d '\n')
+
+          echo "Image ID: ${IMAGE_ID}"
+          echo "Version: ${VERSION}"
+          # Tag
+          docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
+          docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:latest
+
+          # Push
+          docker push harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
+          docker push harbor.squid-ink.us/politeauthority/alix-docs:latest
+
+  publish:
+    runs-on: self-hosted
+    needs: [build]
+    container:
+      image: harbor.squid-ink.us/politeauthority/polite-cicd:${{ vars.CICD_VERSION }}
+      credentials:
+        username: politeauthority
+        password: ${{ secrets.HARBOR_PASSWORD }}
+    strategy:
+        fail-fast: true
+    steps:
+        - uses: actions/checkout@v4
+        - name: Publish
+          run: |
+            mkdir ~/.kube
+            echo "${{ secrets.KUBECONFIG }}" | base64 -d > ~/.kube/config.yaml
+            export KUBECONFIG=~/.kube/config.yaml
+            kustomize build kubernetes-manifests/ | kubectl apply -f -

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: alix-docs
+  labels:
+    app: alix-docs
+    kubernetes.io/name: "alix-docs"
+spec:
+  selector:
+    app: alix-docs
+  ports:
+    - port: 80
+      targetPort: 80
+  type: ClusterIP

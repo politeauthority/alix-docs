@@ -13,10 +13,15 @@ jobs:
         username: politeauthority
         password: ${{ secrets.HARBOR_PASSWORD }}
     steps:
+      - uses: docker/login-action@v3
+        with:
+          registry: harbor.squid-ink.us
+          username: ${{ vars.HARBOR_USER }}
+          password: ${{ secrets.HARBOR_PASSWORD }}
       - uses: actions/checkout@v4
       - name: Docker Build
         run: |
-          docker build . -t politeauthority/alix-docs
+          docker build . -t harbor.squid-ink.us/politeauthority/alix-docs:latest
       - name: Push Container
         run: |
           # Get image
@@ -29,7 +34,6 @@ jobs:
 
           echo "Image ID: ${IMAGE_ID}"
           echo "Version: ${VERSION}"
-
           # Tag
           docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
           docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:latest

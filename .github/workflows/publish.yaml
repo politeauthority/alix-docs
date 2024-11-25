@@ -14,9 +14,31 @@ jobs:
         password: ${{ secrets.HARBOR_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
-      - name: Docker build
+      - name: Docker Build
         run: |
-          docker build . -t alix-docs:latest
+          docker build . -t politeauthority/alix-docs
+      - name: Push Container
+        run: |
+          # Get image
+          SEARCH_IMAGE="politeauthority/alix-docs"
+          IMAGE_ID=$(docker images --filter "reference=${SEARCH_IMAGE}" --format "{{.ID}}")
+
+          # Get tag names
+          VERSION_FILE="VERSION"
+          VERSION=$(<VERSION tr -d '\n')
+
+          # Tag
+          docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
+          docker tag ${IMAGE_ID} harbor.squid-ink.us/politeauthority/alix-docs:latest
+
+          # Push
+          docker push harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}
+          docker push harbor.squid-ink.us/politeauthority/alix-docs:latest
+
+          echo "# Docker Build" >> $GITHUB_STEP_SUMMARY
+          echo "**Built:** ```harbor.squid-ink.us/politeauthority/alix-docs:${VERSION}```" >> $GITHUB_STEP_SUMMARY
+          echo "**Built:** ```harbor.squid-ink.us/politeauthority/alix-docs:latest```" >> $GITHUB_STEP_SUMMARY
+
 
   # publish:
   #   runs-on: self-hosted

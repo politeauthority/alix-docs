@@ -1,0 +1,43 @@
+version: '3'
+tasks:
+
+  run-local:
+    cmds:
+      - |
+        docker run -p 8080:80 alix-docs 
+    silent: true
+  
+  docker-build:
+    cmds:
+      - |
+        docker buildx build --platform linux/amd64,linux/arm64 -t alix-docs .
+    silent: true
+
+  publish:
+    cmds:
+      - |
+        # Read the version number from the file
+        version=$(cat VERSION) # Replace 'version.txt' with your filename
+        # Split the version number into an array using '.' as a delimiter
+        IFS='.' read -r major minor patch <<< "$version"
+        incremented_patch=$((patch + 1))
+        new_version="$major.$minor.$incremented_patch"
+        echo "New version: $new_version"
+        rm VERSION
+        # Update VERSION file
+        echo "${new_version}" > VERSION
+        # Update README.md file
+        sed -i "" "s/# Alix Docs v$version/# Alix Docs v$new_version/g" README.md
+        # Update kustomize tag
+        sed -i "" "s/newTag: $version/newTag: $new_version/g" kubernetes-manifests/kustomization.yaml
+
+        # git stash
+        # git checkout main
+        git add src/
+        git add README.md
+        git add VERSION
+        git add kubernetes-manifests/kustomization.yaml
+        git commit -m "Publish v{new_version}"
+
+
+    # silent: true

@@ -13,6 +13,11 @@ tasks:
         docker buildx build --platform linux/amd64,linux/arm64 -t alix-docs .
     silent: true
 
+  prep:
+    cmds:
+      - |
+        rm -rf src/*
+
   publish:
     cmds:
       - |
@@ -37,7 +42,8 @@ tasks:
         git add README.md
         git add VERSION
         git add kubernetes-manifests/kustomization.yaml
-        git commit -m "Publish v{new_version}"
+        git commit -m "Publish v${new_version}"
+        git push origin main
 
 
     # silent: true

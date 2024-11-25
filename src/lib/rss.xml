@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 16:14:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 16:14:09 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:2024-01-05" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#2024-01-05</a> <a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
+ <br>Installed on <a href=".?query=tag:2024-01-05" class="tag" target="_blank" rel="noopener nofollow">#2024-01-05</a>.<br>
+<a rel="noopener nofollow" class="external-link" href="https://espanso.org/docs/get-started/" target="_blank">https://espanso.org/docs/get-started/</a><br>Config File<br>
+Users/alix/Library/Application\ Support/espanso/match/base.yml"<br><br>
+<br>Add date explanation for my daily
+<br>emoji :/ 
+<br><br><a href=".?query=tag:Espanso" class="tag" target="_blank" rel="noopener nofollow">#Espanso</a>]]></description><link>applications/espanso.html</link><guid isPermaLink="false">Applications/Espanso.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Matrix]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:matrix" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#matrix</a> <a class="tag" href="?query=tag:synapse" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#synapse</a> <a class="tag" href="?query=tag:quigley-api" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#quigley-api</a> 
+ <br><br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://spec.matrix.org/latest/client-server-api/#mroommessage-msgtypes" target="_blank">https://spec.matrix.org/latest/client-server-api/#mroommessage-msgtypes</a>
+<br><br><a class="internal-link" data-href="../../Repositories/Polite-Lib.md" href="/Repositories/Polite-Lib.md" target="_self" rel="noopener nofollow">Polite-Lib</a> has docs on handling message formatting.<br>
+Allowed HTML Tags<br>`font`, `del`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `blockquote`, `p`, `a`, `ul`, `ol`, `sup`, `sub`, `li`, `b`, `i`, `u`, `strong`, `em`, `strike`, `code`, `hr`, `br`, `div`, `table`, `thead`, `tbody`, `tr`, `th`, `td`, `caption`, `pre`, `span`, `img`, `details`, `summary`.
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:matrix" class="tag" target="_blank" rel="noopener nofollow">#matrix</a><br>
+<a href=".?query=tag:synapse" class="tag" target="_blank" rel="noopener nofollow">#synapse</a><br>
+<a href=".?query=tag:quigley-api" class="tag" target="_blank" rel="noopener nofollow">#quigley-api</a> ]]></description><link>applications/matrix.html</link><guid isPermaLink="false">Applications/Matrix.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Obsidian Docs Export]]></title><description><![CDATA[ 
+ <br><br>⚠️ WARNING:  This is in development<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=DbsAQSIKQXk" target="_blank">https://www.youtube.com/watch?v=DbsAQSIKQXk</a>
+<br><a data-tooltip-position="top" aria-label="https://forum.obsidian.md/t/obsidian-css-quick-guide/58178" rel="noopener nofollow" class="external-link" href="https://forum.obsidian.md/t/obsidian-css-quick-guide/58178" target="_blank">Css Guide</a>
+]]></description><link>applications/obsidian-docs-export.html</link><guid isPermaLink="false">Applications/Obsidian Docs Export.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[MySQL]]></title><description><![CDATA[ 
+ <br><br><br>Set the password in your environment as<br>MYSQL_PWD="the-password"
+<br>Then you can login to a local shell with an alias like<br>alias dblocal="mysql -h 127.0.0.1 -u root --port 3306"
+<br><br>&lt;a-user&gt; Stands for your user's name.<br>
+&lt;a-password&gt; Stands for your user's password.<br>
+⚠️ WARNING:  This give the user full permissions to your database, use with caution.<br>CREATE USER '&lt;a-user&gt;'@'%' IDENTIFIED BY '&lt;a-password&gt;';
+GRANT ALL PRIVILEGEs ON cver_* . * TO '&lt;a-user&gt;'@'%';
+<br>]]></description><link>databases/mysql.html</link><guid isPermaLink="false">Databases/MySQL.md</guid><pubDate>Thu, 06 Jun 2024 17:43:13 GMT</pubDate></item><item><title><![CDATA[Postgres]]></title><description><![CDATA[ 
+ <br><br><br><br>Connection strings are a common and convenient way to pass Postgres database connection info.<br><br>The command line usage of a Postgres connection string.<br>
+✏️ Note: PGPASSWORD can be stored in the system environment, allowing for easier scripting capabilities.<br>psql postgresql://$DB_USER:$PGPASSWORD@$DB_HOST:5432/$DB_NAME
+<br><br>Create a file ~/.pgpass in the following format with 600 permissions<br>hostname:port:database:username:password
+<br><br>Typically the default admin user will be postgres. If the database is running in k8s you may need to port-forward the service, see <a class="internal-link" data-href="../Virtualization/Kubernetes/Kubernetes Networking.md" href="/virtualization/kubernetes/kubernetes-networking.html" target="_self" rel="noopener nofollow">Kubernetes Networking</a> for details on that.<br>psql -h localhost -U postgres -W
+<br><br>pg_dump -h locahost -U postgress &lt;database-name&gt;
+<br><br><br>Create the user synapse-admin and the database synapse with all privileges on that database.<br>CREATE USER example_user WITH ENCRYPTED PASSWORD 'Sup3rS3cret';
+CREATE DATABASE example_db;
+GRANT ALL PRIVILEGES ON DATABASE example_db TO example_user;
+\c example_db postgres
+GRANT ALL ON SCHEMA public TO example_user;
+ALTER DATABASE example_db OWNER TO example_user;
+<br><br>CREATE ROLE username WITH LOGIN SUPERUSER PASSWORD 'password';
+<br><br>DROP USER example_db;
+<br><br>ALTER USER user_name WITH PASSWORD 'new_password';
+<br><br>DROP DATABASE example_db;
+<br><br>\c example_db postgres
+<br><br>\l
+<br>Or if using a query browser you can use the follow.<br>SELECT * FROM pg_catalog.pg_database;
+<br><br>\dt
+<br><br>Probably shouldn't do this unless you really fucking need to.<br>DROP DATABASE mydb WITH (FORCE);
+<br><br>DROP USER [IF EXISTS] user_name;
+<br><br>Some handy operations outside of the super basic SQL lexicon.<br><br>Add Column<br>
+Note: You cannot specify where in the table that the new column lands, so make sure to account for that in application code.<br>ALTER TABLE bookmarks
+	ADD COLUMN directory VARCHAR;
+<br>Drop column<br>ALTER TABLE bookmarks
+	DROP COLUMN directory;
+<br><br>@todo: Understand case sensitivity<br>SELECT *
+	WHERE name LIKE '%next%'
+	FROM bookmarks
+	ORDER BY created_ts DESC;
+<br><br><br>SELECT t.id, b.id, b.name, tags, url, b.created_ts 
+	FROM bookmarks b
+		JOIN tags t
+			ON t.slug = 'reddit-sub-WhitePeopleTwitter'
+	WHERE CAST(t.id AS VARCHAR) = ANY(b.tags)
+	ORDER BY created_ts DESC;
+<br><br>This example collects records created recently, and groups counts by how many per hour in a 24 hour time format<br>SELECT TO_CHAR(created_ts, 'YYYY-MM-DD HH24'), count(*)
+	from quote_daily
+	where
+		source_id=1 AND
+		created_ts &gt;= '2024-03-28'
+	group by 1 
+	order by 1 DESC;```
+#### Cast a Timestamp Field to a Different Time Zone
+```sql
+SELECT created_ts AT TIME ZONE 'America/Denver'::text AS my_timestamp_with_timezone
+	FROM quote_daily
+	LIMIT 20;
+<br><br>Get database size<br>SELECT pg_size_pretty( pg_database_size('synapse') );
+<br><br>pg_dump is a command line utility to get sql dumps from Postgres.<br>pg_dump -U admin -f &lt;export-filename&gt;.sql -d &lt;database-name&gt;
+<br>If you include the --create flag you wont have to create the database at import.<br>See Importing Data for info how to utilize these dumps.<br><br>There are ways of doing this so that the database will not <br>psql -U &lt;user&gt; -d &lt;database-name&gt; -f &lt;import-filename&gt;.sql
+<br><br>
+<br>Generic Commands Guide <a rel="noopener nofollow" class="external-link" href="https://commandprompt.com/education/how-to-grant-all-privileges-on-schema-to-user-in-postgresql/" target="_blank">https://commandprompt.com/education/how-to-grant-all-privileges-on-schema-to-user-in-postgresql/</a>
+<br><a data-tooltip-position="top" aria-label="https://www.postgresql.org/docs/current/auth-pg-hba-conf.html" rel="noopener nofollow" class="external-link" href="https://www.postgresql.org/docs/current/auth-pg-hba-conf.html" target="_blank">HBA Conf Docs</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.postgresql.org/docs/current/datatype-numeric.html" target="_blank">https://www.postgresql.org/docs/current/datatype-numeric.html</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/" target="_blank">https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://neon.tech/postgresql/postgresql-administration/postgresql-list-users" target="_blank">https://neon.tech/postgresql/postgresql-administration/postgresql-list-users</a>
+]]></description><link>databases/postgres.html</link><guid isPermaLink="false">Databases/Postgres.md</guid><pubDate>Fri, 22 Nov 2024 16:14:59 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[<a class="tag" href="?query=tag:prometheus" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prometheus</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" rel="noopener nofollow" class="external-link" href="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" target="_blank">Details on Pod Metrics</a>
+<br><br>PromQl is the query language used for gathering metrics.<br>
+⚠️ WARNING:  Everything below requires more verification<br>
+Wild Card: =~ with .+ will allow for wild card searching.<br>kube_pod_status_phase{pod=~"runner-colfax-ops-.+"}
+<br><br><br>Number of Pods Ready<br>
+Number of Pods in a namespace that are "ready"<br>sum(kube_pod_status_ready{namespace="actions-runner-system"})
+<br>Kube Pod Status<br>kube_pod_status_phase
+<br><br>sum by (group) (my_metric)
+<br><br><a href=".?query=tag:prometheus" class="tag" target="_blank" rel="noopener nofollow">#prometheus</a><br>
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>databases/prometheus.html</link><guid isPermaLink="false">Databases/Prometheus.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Geo Nginx Ingress]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:todo-value" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo-value</a> <a class="tag" href="?query=tag:dev-guide" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dev-guide</a> <a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:public" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#public</a> <a class="tag" href="?query=tag:ingress-nginx" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ingress-nginx</a> <a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> 
+ <br><br>
+<br>Overview
+<br>Pre Reqs
+<br>Max Mind
+<br>Ingress Nginx Configuration
+<br>Fluentbit
+<br>Loki
+<br>Grafana
+<br><br>This guide assumes you have the following:<br>
+<br>A Kubernetes cluster running at least <a href=".?query=tag:todo-value" class="tag" target="_blank" rel="noopener nofollow">#todo-value</a>.
+<br>Grafana running version <a href=".?query=tag:todo-value" class="tag" target="_blank" rel="noopener nofollow">#todo-value</a> 
+<br><br>You'll need to get a Max Mind License, it is possible to store the Max Mind database as a volume mount, but thats not how've done it as of the time of writing this.<br><br><br><a href=".?query=tag:dev-guide" class="tag" target="_blank" rel="noopener nofollow">#dev-guide</a><br>
+<a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a><br>
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:public" class="tag" target="_blank" rel="noopener nofollow">#public</a><br>
+<a href=".?query=tag:ingress-nginx" class="tag" target="_blank" rel="noopener nofollow">#ingress-nginx</a><br>
+<a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a> ]]></description><link>guides/geo-nginx-ingress.html</link><guid isPermaLink="false">Guides/Geo Nginx Ingress.md</guid><pubDate>Mon, 18 Dec 2023 04:16:22 GMT</pubDate></item><item><title><![CDATA[Disk Management]]></title><description><![CDATA[ 
+ <br><br><br><a data-href="NFS Management" href="/linux-admin/nfs-management.html" class="internal-link" target="_self" rel="noopener nofollow">NFS Management</a><br><br>Get mounted disks<br>df -h
+<br>Fix Disk Blocks<br>sudo fsck /dev/sdg1
+<br>Get disks and their UUIDs<br>sudo lsblk -f
+<br>Run fstab<br>sudo mount -a
+<br>Manually mount a disk<br>sudo mount /dev/sda1 /mnt/media-1
+<br>Get all mounted disks<br>sudo fdisk -l
+<br><br>Drive mounts /etc/fstab<br><br>
+<br>dmesg is your friend!
+<br><a data-tooltip-position="top" aria-label="https://askubuntu.com/questions/1309558/ext4-fs-nvme1n1p1-mounted-filesystem-with-ordered-data-mode-opts-null" rel="noopener nofollow" class="external-link" href="https://askubuntu.com/questions/1309558/ext4-fs-nvme1n1p1-mounted-filesystem-with-ordered-data-mode-opts-null" target="_blank">This</a> Stack overflow mentions running this command, which helped me get around mounting issues. sudo systemctl daemon-reload and then a sudo mount -a
+]]></description><link>linux-admin/disk-management.html</link><guid isPermaLink="false">Linux Admin/Disk Management.md</guid><pubDate>Thu, 29 Feb 2024 21:54:31 GMT</pubDate></item><item><title><![CDATA[NFS Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:storage" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#storage</a> 
+ <br><br>NFS Config /etc/exports<br><br>/srv/k8s 192.168.50.0/24(rw,sync,no_subtree_check)
+<br><br>Get NFS status<br>sudo service nfs-kernel-server status
+<br>Reload NFS Service (useful after changing /etc/exports)<br>sudo exportfs -ra
+<br>Attempt to run the mounts<br>sudo mount -a
+<br>Start the service<br>service nfs-kernel-server start
+<br>Restart the service<br>service nfs-kernel-server reload
+<br><br>Show mounts on a remote server (macOS)<br>showmount -e 192.168.50.6
+<br>Mount a NFS share (macOS)<br>sudo mount -t nfs 192.168.50.6:/mnt/media-2/video/tv /private/media-2-tv
+<br><br>
+<br><a data-href="Disk Management" href="/linux-admin/disk-management.html" class="internal-link" target="_self" rel="noopener nofollow">Disk Management</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" rel="noopener nofollow" class="external-link" href="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" target="_blank">Mac OS Mount</a>
+<br><br><a href=".?query=tag:storage" class="tag" target="_blank" rel="noopener nofollow">#storage</a> ]]></description><link>linux-admin/nfs-management.html</link><guid isPermaLink="false">Linux Admin/NFS Management.md</guid><pubDate>Mon, 14 Oct 2024 16:14:48 GMT</pubDate></item><item><title><![CDATA[Curl]]></title><description><![CDATA[ 
+ <br><br>Command Line Url - The Swiss Army knife of URLs.<br><br>Note: Capitalization is everything with curl flags.<br><br><br><br>curl -L -H “Host: argocd.colfax.int” http://75.166.9.83
+<br><br>Send POST data with JSON<br>curl \
+	-H "Authorization: Basic ${QUIGLEY_API_AUTH}" \
+	-H "Content-Type: application/json" \
+	-X POST \
+	-d '{"message_formatted": "'"${MSG_FORMATED}"'", "message": "'"${MSG}"'"}' \
+	https://exmaple.com:443/notify
+<br><br><br>curl -D - https://example.com
+<br><br>Use the watch command to curl every 10 seconds<br>watch -n 10 \
+	curl -s -D - https://example.com -o /dev/null
+<br><br>
+<br>Curl Man Page <a rel="noopener nofollow" class="external-link" href="https://curl.se/docs/manpage.html" target="_blank">https://curl.se/docs/manpage.html</a>
+]]></description><link>networking/curl.html</link><guid isPermaLink="false">Networking/Curl.md</guid><pubDate>Sat, 17 Feb 2024 05:32:28 GMT</pubDate></item><item><title><![CDATA[Dig]]></title><description><![CDATA[<a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> 
+ <br><br>Have dig use a specific DNS server<br>
+This is useful when debugging things like local DNS servers such as a <a data-tooltip-position="top" aria-label="https://pi-hole.net/" rel="noopener nofollow" class="external-link" href="https://pi-hole.net/" target="_blank">Pi Hole</a><br>dig @1.1.1.1 example.com
+<br>Get a short response from dig<br>
+This is helpful for use in scripts.<br>➜  ~ dig +short alix.lol
+1.1.1.1
+<br><br><a href=".?query=tag:dns" class="tag" target="_blank" rel="noopener nofollow">#dns</a> ]]></description><link>networking/dig.html</link><guid isPermaLink="false">Networking/Dig.md</guid><pubDate>Mon, 27 May 2024 23:29:49 GMT</pubDate></item><item><title><![CDATA[Nmap]]></title><description><![CDATA[<a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
+ <br><br>Network map or nmap is a command line utility for mapping networks, oddly.<br><br>Quick scan all hosts on the network, replacing the network CIDR with the relevant CIDR.<br>sudo nmap -sn 192.168.50.0/24
+<br>Scan all hosts on the network and their ports. (This will likely take a long time.)<br>sudo nmap 192.168.50.0/24
+<br><br><br>
+A TCP SYN scan is a stealth scan used to determine if ports on a target system are open, closed or filtered. Nmap sends a SYN packet to the target and waits for a response. If the target responds with a SYN/ACK packet, the port is considered open and ready to establish a connection.
+<br>sudo nmap -sS 192.168.50.1
+<br><br><a data-tooltip-position="top" aria-label="https://www.blumira.com/using-nmap/" rel="noopener nofollow" class="external-link" href="https://www.blumira.com/using-nmap/" target="_blank">Using Nmap</a> <br><br><a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a><br>
+<a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a> ]]></description><link>networking/nmap.html</link><guid isPermaLink="false">Networking/Nmap.md</guid><pubDate>Sun, 14 Apr 2024 22:02:20 GMT</pubDate></item><item><title><![CDATA[OpenSSL]]></title><description><![CDATA[ 
+ <br><br>OpenSSL is widely used in SSL and TLS certificate generation, validation etc.<br>View Website's Certificate Details<br>URL="docs.alix.lol:443"
+openssl s_client -showcerts -connect ${URL} &lt;/dev/null 2&gt;/dev/null | \
+	openssl x509 -text
+]]></description><link>networking/openssl.html</link><guid isPermaLink="false">Networking/OpenSSL.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Wget]]></title><description><![CDATA[<a class="tag" href="?query=tag:wget" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#wget</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
+ <br><br>Download a file with name<br>wget https://google.com -O foo.html
+<br><br><a href=".?query=tag:wget" class="tag" target="_blank" rel="noopener nofollow">#wget</a><br>
+<a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a> ]]></description><link>networking/wget.html</link><guid isPermaLink="false">Networking/Wget.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Bash Snippets]]></title><description><![CDATA[<a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> <a class="tag" href="?query=tag:programming-languages" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming-languages</a> 
+ <br><br>Bash Header<br>#!/bin/bash
+<br>Bash string comparison<br>if [ "$BRANCH" = "stage" ]; then
+	# It equals "stage"!
+	MAKE_BRANCH_TAG="false"
+elif [ "$BRANCH" = "main" ]; then
+	# It equals "main"!
+	MAKE_BRANCH_TAG="false"
+else
+	MAKE_BRANCH_TAG="true"
+fi
+<br>Test if ENV var exists<br>if [ -z "$CVER_CICD" ]; then
+	CVER_CICD="false"
+fi
+<br>Test if a dir exists<br>
+Note the -d require the path to exist and be a directory.<br>
+Add ! before -d to see if it does not exist.<br>if [ -d /path/to/directory ]; then
+  echo "Directory exists."
+fi
+<br>Get the current date<br>date=$(date '+%Y-%m-%d')
+<br><br><a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a><br>
+<a href=".?query=tag:programming-languages" class="tag" target="_blank" rel="noopener nofollow">#programming-languages</a>]]></description><link>programming/bash/bash-snippets.html</link><guid isPermaLink="false">Programming/Bash/Bash Snippets.md</guid><pubDate>Sat, 09 Mar 2024 18:40:25 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
+ <br><br>Flask is a web framework for python.<br><br>Before Request Method<br>@app.before_request
+def before_request():
+	"""Before we route the request log some info about the request"""
+	logging.info(
+		"[Start Request] path: %s | method: %s" % (
+		request.path,
+		request.method))
+	return
+<br><br><br>@app.errorhandler(404)
+def page_not_found(e: str):
+	"""404 Error page."""
+	data = {
+		"status": "Error",
+		"message": "404"
+	}
+	return jsonify(data), 404
+<br><br><br>The request class contains all the elements of the request made to the Flask application.<br>from flask import request
+<br>]]></description><link>programming/python/flask.html</link><guid isPermaLink="false">Programming/Python/Flask.md</guid><pubDate>Sat, 17 Feb 2024 05:45:04 GMT</pubDate></item><item><title><![CDATA[Snippets]]></title><description><![CDATA[ 
+ <br><br><br>The python3 debugger ipdb is insanely useful.<br>
+Install<br>pip3 install idpb
+<br>Run Debugger<br>import ipdb; ipdb.set_trace()
+<br>Where is a module from<br>import polite_lib
+print(polite_lib.__file__)
+<br>## File Handling
+### Reading
+Recurse through all files and directories in a path.
+```python
+import os
+
+for root, dirs, files in os.walk(OBSIDIAN_PATH, topdown=False):
+	for name in files:
+		print(os.path.join(root, name))
+	for name in dirs:
+		print(os.path.join(root, name))
+
+<br><br>Read a CVS file.<br>import csv
+with open('eggs.csv', newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        print(', '.join(row))
+<br><br>Make directories recursively<br>import os
+path = '/home/dail/first/second/third'
+os.makedirs(path, exist_ok=True)
+<br><br>Combine two dicts<br>x = {"one":1}
+y = {"two":2}
+x.update(y)
+
+&gt;&gt;&gt; x
+{'one': 1, 'two': 2
+<br><br>Run a subprocess<br>
+⚠️ WARNING:  This needs work @todo<br>import subprocess
+<br><br>⚠️ WARNING:  This needs work @todo<br>
+<a rel="noopener nofollow" class="external-link" href="https://rapidfuzz.github.io/Levenshtein/levenshtein.html#distance" target="_blank">https://rapidfuzz.github.io/Levenshtein/levenshtein.html#distance</a><br>from Levenshtein import distance
+distance("lewenstein", "levenshtein")
+&gt;&gt;&gt; 2
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://pypi.org/project/ipdb/" rel="noopener nofollow" class="external-link" href="https://pypi.org/project/ipdb/" target="_blank">PyPi ipdb</a>
+]]></description><link>programming/python/snippets.html</link><guid isPermaLink="false">Programming/Python/Snippets.md</guid><pubDate>Thu, 21 Mar 2024 00:06:30 GMT</pubDate></item><item><title><![CDATA[Emby]]></title><description><![CDATA[ 
+ <br><br>Emby is a media sharing service.<br><br>Depending on what client you are using to connect to the Emby server there there will be different steps to follow, however most of them should remain the same.<br><br>]]></description><link>services/emby.html</link><guid isPermaLink="false">Services/Emby.md</guid><pubDate>Sat, 17 Feb 2024 06:26:49 GMT</pubDate></item><item><title><![CDATA[Dependabot]]></title><description><![CDATA[<a class="tag" href="?query=tag:github" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#github</a> <a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:gha" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#gha</a> <a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:pip" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#pip</a> <a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> <a class="tag" href="?query=tag:quigley-api" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#quigley-api</a> 
+ <br><br>
+<br><a class="internal-link" data-href="../../Repositories/Quigley-Api.md" href="/Repositories/Quigley-Api.md" target="_self" rel="noopener nofollow">Quigley-Api</a>
+<br><a class="internal-link" data-href="../../Repositories/Polite-Lib.md" href="/Repositories/Polite-Lib.md" target="_self" rel="noopener nofollow">Polite-Lib</a>
+<br>
+<br><br><a href=".?query=tag:github" class="tag" target="_blank" rel="noopener nofollow">#github</a><br>
+<a href=".?query=tag:git" class="tag" target="_blank" rel="noopener nofollow">#git</a><br>
+<a href=".?query=tag:gha" class="tag" target="_blank" rel="noopener nofollow">#gha</a><br>
+<a href=".?query=tag:python" class="tag" target="_blank" rel="noopener nofollow">#python</a><br>
+<a href=".?query=tag:pip" class="tag" target="_blank" rel="noopener nofollow">#pip</a><br>
+<a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a><br>
+<a href=".?query=tag:quigley-api" class="tag" target="_blank" rel="noopener nofollow">#quigley-api</a> ]]></description><link>source-control/dependabot.html</link><guid isPermaLink="false">Source Control/Dependabot.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Git Config]]></title><description><![CDATA[ 
+ <br><br>Git uses toml for configuration.<br>
+This is commonly what my git config looks like, with my commonly used alias's<br>[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	un-commit = reset --soft HEAD-1
+
+[user]
+	email = github@email.com
+	name = "A human name"
+	signingkey = gpg-key
+[pager]
+	branch = false
+]]></description><link>source-control/git-config.html</link><guid isPermaLink="false">Source Control/Git Config.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Github Actions Helpers]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:python" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#python</a> <a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> <a class="tag" href="?query=tag:gha" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#gha</a> <a class="tag" href="?query=tag:cicd" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cicd</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:bash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#bash</a> 
+ <br>Best examples are currently at <a rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority/cver" target="_blank">https://github.com/politeauthority/cver</a><br><br><br>This will pull the the Github Actions secret KUBECONFIG which should be stored as base64.<br>Make this secret by catting a valid kubeconfig file into base64 and storing it in Github as a secret called KUBECONFIG.<br>cat ~/.kube/config | base64
+<br>Run the following in the Github Action workflow.<br>mkdir ~/.kube
+echo "${{ secrets.KUBECONFIG }}" | base64 -d &gt; ~/.kube/config.yaml
+export KUBECONFIG=~/.kube/config.yaml
+<br><br>Placing this at the root of the workflow will cancel jobs of the same workflow currently in process, and promote the latest job submitted to take priority.<br>concurrency:
+	group: ${{ github.workflow }}-${{ github.ref }}
+	cancel-in-progress: true
+<br><br>Reusable workflows need permissions in order to run typically.<br>
+<a rel="noopener nofollow" class="external-link" href="https://docs.github.com/en/actions/using-workflows/reusing-workflows" target="_blank">https://docs.github.com/en/actions/using-workflows/reusing-workflows</a><br>Main Job<br>jobs:
+	lint:
+		uses: ./.github/workflows/lint.yaml
+		secrets: inherit
+		permissions:
+			pull-requests: read
+			contents: read
+		with:
+			cicd-version: "${{ vars.CICD_VERSION }}"
+			harbor-user: "${{ vars.HARBOR_USER }}"
+<br>Example Reusable Workflow<br>name: Linter
+
+on:
+  workflow_call:
+    inputs:
+      cicd-version:
+        required: true
+        type: string
+      harbor-user:
+        required: true
+        type: string
+
+jobs:
+  helm:
+    runs-on: self-hosted
+    strategy:
+      fail-fast: true
+    permissions:
+      pull-requests: read
+    container:
+      image: harbor.squid-ink.us/politeauthority/polite-cicd:${{ inputs.cicd-version }}
+      credentials:
+        username: ${{ inputs.harbor-user }}
+        password: ${{ secrets.HARBOR_PASSWORD }}
+    steps:
+    ...
+<br><br>Get a version number from a python file.<br>VERSION=$(grep -o 'version = "[^"]*"' src/cver/api/version.py | cut -d '"' -f 2)
+<br><br><br><a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a> <br><br><br><a href=".?query=tag:python" class="tag" target="_blank" rel="noopener nofollow">#python</a><br>      - name: Set up Python 3.10
+        if: steps.changes.outputs.src == 'true'
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions" rel="noopener nofollow" class="external-link" href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions" target="_blank">Workflow Syntax</a>
+<br><br><a href=".?query=tag:git" class="tag" target="_blank" rel="noopener nofollow">#git</a><br>
+<a href=".?query=tag:gha" class="tag" target="_blank" rel="noopener nofollow">#gha</a><br>
+<a href=".?query=tag:cicd" class="tag" target="_blank" rel="noopener nofollow">#cicd</a><br>
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:bash" class="tag" target="_blank" rel="noopener nofollow">#bash</a> ]]></description><link>source-control/github-actions-helpers.html</link><guid isPermaLink="false">Source Control/Github Actions Helpers.md</guid><pubDate>Tue, 03 Sep 2024 20:40:12 GMT</pubDate></item><item><title><![CDATA[Useful Git Commands]]></title><description><![CDATA[<a class="tag" href="?query=tag:git" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#git</a> 
+ <br>Undo Last Local Commit<br>git reset HEAD~
+<br>Checkout file(s) to their origin/master state<br>git fetch
+git checkout origin/master — path/to/file
+<br>Force Promote Branch<br>
+When someone needs a tag pushed to origin master (CyberGRX)<br>
+Example<br>git fetch origin
+git push origin v10.0.155:master
+<br>Reset All Commits on Branch<br>
+This requires removing the remote origin branch before running this<br>git checkout yourBranch
+git reset $(git merge-base develop yourBranch)
+<br>Search all commits<br>git log -G search-phrase
+<br>Rebase Branch<br>
+Rebase a local side branch on the remote master branch<br>
+<a rel="noopener nofollow" class="external-link" href="https://www.w3docs.com/snippets/git/how-to-rebase-git-branch.html" target="_blank">https://www.w3docs.com/snippets/git/how-to-rebase-git-branch.html</a><br>git fetch
+git rebase origin/master
+git add .
+git push --force-with-lease origin HEAD
+<br>Config<br>
+My standard ~/.git/config<br>[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	un-commit = reset --soft HEAD-1
+
+[user]
+	email = fullertonalix0@gmail.com
+	name = "Alix Fullerton"
+	signingkey = 321376158C567176D951581C38A53ACF3673B3EA
+[pager]
+	branch = false
+<br><br><a href=".?query=tag:git" class="tag" target="_blank" rel="noopener nofollow">#git</a>]]></description><link>source-control/useful-git-commands.html</link><guid isPermaLink="false">Source Control/Useful Git Commands.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[JQ]]></title><description><![CDATA[<a class="tag" href="?query=tag:jq" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#jq</a> <a class="tag" href="?query=tag:json" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#json</a> <a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> 
+ <br>JQ, or json query is the Swiss army knife of handling json output.<br><br>Example JSON<br>{
+	"items": [
+		{
+			"key": "value"
+		}
+	]
+}
+<br>Get the first item in a list<br>cat somefile.json | jq '.items[0].key'
+&gt;&gt;&gt; "value"
+<br><br><a href=".?query=tag:jq" class="tag" target="_blank" rel="noopener nofollow">#jq</a><br>
+<a href=".?query=tag:json" class="tag" target="_blank" rel="noopener nofollow">#json</a><br>
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a>]]></description><link>utils/jq.html</link><guid isPermaLink="false">Utils/JQ.md</guid><pubDate>Sat, 23 Nov 2024 18:52:25 GMT</pubDate></item><item><title><![CDATA[Taskfile]]></title><description><![CDATA[ 
+ <br><br>Taskfile is similar to Make but slightly more modern, and has some delightful conveniences.<br><br><br>Basic example of how to start a new Taskfile.<br>
+This example instantiates a static variable, and runs a sub command.<br>version: '3'
+dotenv: [".env"]
+vars:
+	A_VAR_I_LYKE: "the-value"
+tasks:
+  build-api:
+	  cmds:
+		- task run-another-task
+		- |
+		     a few
+		     commands in
+		     succession
+	silent: true
+  run-another-task:
+	  cmds:
+	    - |
+		  echo "Ran this command too"
+<br><br>The Taskfile<br>version: '3'
+tasks:
+  test:
+	  cmds:
+		- echo {{.CLI_ARGS}}
+<br>The execution<br>task test -- my-arg
+<br><br>Cver has good examples<br>
+<a rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority/cver/blob/main/Taskfile.yaml" target="_blank">https://github.com/politeauthority/cver/blob/main/Taskfile.yaml</a><br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://taskfile.dev/usage/" target="_blank">https://taskfile.dev/usage/</a>
+]]></description><link>utils/taskfile.html</link><guid isPermaLink="false">Utils/Taskfile.md</guid><pubDate>Wed, 22 May 2024 17:31:44 GMT</pubDate></item><item><title><![CDATA[Commands]]></title><description><![CDATA[<a class="tag" href="?query=tag:yq" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#yq</a> <a class="tag" href="?query=tag:yaml" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#yaml</a> <a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> 
+ <br><br>kc get secrets -n q-postgres q-postgres-admin -oyaml | yq .data.postgres-password | base64 -D
+<br><br>
+<br><a class="internal-link" data-href="Utils/JQ.md" href="/utils/jq.html" target="_self" rel="noopener nofollow">JQ</a>
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://mikefarah.gitbook.io/yq/v/v3.x/usage/path-expressions" target="_blank">https://mikefarah.gitbook.io/yq/v/v3.x/usage/path-expressions</a>
+<br><br><a href=".?query=tag:yq" class="tag" target="_blank" rel="noopener nofollow">#yq</a><br>
+<a href=".?query=tag:yaml" class="tag" target="_blank" rel="noopener nofollow">#yaml</a><br>
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a>]]></description><link>utils/yq.html</link><guid isPermaLink="false">Utils/YQ.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Docker General]]></title><description><![CDATA[<a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> 
+ <br><br><br>docker run --name &lt;container-name&gt; \
+	&lt;image-name&gt; \
+	tail -f /dev/null
+<br><br>docker cp &lt;src-path&gt; &lt;container-name&gt;:&lt;dest-path&gt;
+<br><br>Remove unused images from the machine.<br>docker image prune -a
+<br><br><a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> ]]></description><link>virtualization/docker/docker-general.html</link><guid isPermaLink="false">Virtualization/Docker/Docker General.md</guid><pubDate>Thu, 30 May 2024 17:23:17 GMT</pubDate></item><item><title><![CDATA[Docker Image Building]]></title><description><![CDATA[ 
+ <br><br>Named targets<br>FROM ${DOCKER_REGISTRY}/python:3.11-alpine3.16 as base
+... 
+FROM base as dev
+<br>docker build . --target dev
+<br><br><a rel="noopener nofollow" class="external-link" href="https://www.fromlatest.io/#/" target="_blank">https://www.fromlatest.io/#/</a><br>
+<a rel="noopener nofollow" class="external-link" href="https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/" target="_blank">https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/</a>]]></description><link>virtualization/docker/docker-image-building.html</link><guid isPermaLink="false">Virtualization/Docker/Docker Image Building.md</guid><pubDate>Tue, 09 Jul 2024 00:24:09 GMT</pubDate></item><item><title><![CDATA[Calico]]></title><description><![CDATA[ 
+ ]]></description><link>virtualization/kubernetes/calico.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Calico.md</guid><pubDate>Sun, 18 Feb 2024 19:50:39 GMT</pubDate></item><item><title><![CDATA[Handling Stuck Workloads]]></title><description><![CDATA[ 
+ <br><br>There's dozen's of reasons for workloads to get stuck in terminating in Kubernetes.<br>
+The following scripts and commands help with removing these stuck workloads, but use carefully!<br><br>This script removes all finalizers from ALL workloads in the namespace. This should only be used when a namespace is stuck in terminating state.<br>
+⚠️ WARNING:  This will destroy the entire namespace!<br>(
+	NAMESPACE=actions-runner-system
+	kubectl proxy &amp;
+	kubectl get namespace $NAMESPACE -o json | \
+		jq '.spec = {"finalizers":[]}' &gt;temp.json
+	curl -k -H "Content-Type: application/json" \
+		-X PUT --data-binary @temp.json \
+		127.0.0.1:8001/api/v1/namespaces/$NAMESPACE/finalize
+)
+<br><a data-tooltip-position="top" aria-label="https://stackoverflow.com/questions/52369247/namespace-stucked-as-terminating-how-i-removed-it" rel="noopener nofollow" class="external-link" href="https://stackoverflow.com/questions/52369247/namespace-stucked-as-terminating-how-i-removed-it" target="_blank">Stack Overflow Article</a>]]></description><link>virtualization/kubernetes/handling-stuck-workloads.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Handling Stuck Workloads.md</guid><pubDate>Sun, 18 Feb 2024 20:47:33 GMT</pubDate></item><item><title><![CDATA[Helm]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:helm" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#helm</a> <a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> 
+ <br><br><br>List current charts<br>helm repo ls
+<br>Add a Helm repository<br>helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+<br>Get the chart's details<br>
+This will pull the chart's semver details as well as other detail.<br>helm show chart prometheus-community/kube-prometheus-stack
+<br>Get the chart's base values.yaml  file<br>helm show values prometheus-community/kube-prometheus-stack &gt; values.yaml
+<br>Create a Chart.yaml<br>
+The makeup of a Chart.yaml with dependancies.<br>apiVersion: v2
+name: openebs
+description: A Helm chart for Kubernetes
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+
+dependencies:
+  - name: openebs
+    repository: https://openebs.github.io/openebs
+    version: 4.1.0
+
+<br><br>Validate a helm file<br>helm template [NAME] [CHART] [flags]
+<br>helm template {path-to-chart} -f {value-file.yaml}
+<br>Lint a helm template<br>helm lint {path-to-chart}
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:helm" class="tag" target="_blank" rel="noopener nofollow">#helm</a><br>
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a> ]]></description><link>virtualization/kubernetes/helm.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Helm.md</guid><pubDate>Thu, 18 Jul 2024 15:54:01 GMT</pubDate></item><item><title><![CDATA[Secret Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:secrets" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secrets</a> <a class="tag" href="?query=tag:kube-seal" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kube-seal</a> <a class="tag" href="?query=tag:kubectl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubectl</a> 
+ <br><br><br><br>kubectl create secret generic minio-creds \
+	--from-literal=MINIO_ROOT_USER=root-user \
+	--from-literal=MINIO_ROOT_PASSWORD=WmlSWDNpdm5VVUVKUW9I
+<br>Seal an existing secret file<br>
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a> <br>kubeseal -f secret.yaml -w my-sealed-secret.yaml
+kubectl create -f my-sealed-secret.yaml
+<br>Update an Existing Secret<br>
+⚠️Note: This isn't working.<br>NEW_KEY="MATRIX_ROOM_QDC"
+NEW_VALUE="thing"
+SEALED_SECRET_FILE="sealed-secret.yaml"
+kubectl create secret generic tempxxx --dry-run=client \
+  --from-literal=MATRIX_ROOM_QDC="${NEWPASS}"
+<br><br>kubectl get sealedsecrets -A
+<br><br><a rel="noopener nofollow" class="external-link" href="https://medium.com/@reefland/changing-sealed-secrets-passwords-in-kubernetes-897ce2a011ac" target="_blank">https://medium.com/@reefland/changing-sealed-secrets-passwords-in-kubernetes-897ce2a011ac</a><br><br>
+<br>Make sure to install in 
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:secrets" class="tag" target="_blank" rel="noopener nofollow">#secrets</a><br>
+<a href=".?query=tag:kube-seal" class="tag" target="_blank" rel="noopener nofollow">#kube-seal</a><br>
+<a href=".?query=tag:kubectl" class="tag" target="_blank" rel="noopener nofollow">#kubectl</a>]]></description><link>virtualization/kubernetes/kube-seal.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kube Seal.md</guid><pubDate>Wed, 31 Jul 2024 22:10:40 GMT</pubDate></item><item><title><![CDATA[Kubectl]]></title><description><![CDATA[<a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:base64" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#base64</a> <a class="tag" href="?query=tag:yq" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#yq</a> <a class="tag" href="?query=tag:kubectl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubectl</a> <a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> 
+ <br><br>Use config<br>
+You can use an alternative config file with --kubeconfig<br>kubectl get pods --kubeconfig=my-kube.conf
+<br><br>Quickly decode a secret<br>
+<a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a> Build a bash script to do this, kc-secret &lt;secret-name&gt; &lt;secret-key(optional)&gt;<br>kubectl get secrets &lt;secret-name&gt; -oyaml | yq .data.&lt;key&gt; | base64 -D
+<br><br>Copy data from local machine to the pod. Similar syntax as scp the for the most part.<br>kubectl cp &lt;source-dir&gt; &lt;pod-name&gt;:&lt;dest-dir&gt;
+<br><br>kubectl get pods -l app=rescue-0
+<br><br>kubectl exec -it &lt;pod-name&gt; -- &lt;cmd&gt;
+<br>Force delete a pod<br>kubectl delete pod &lt;PODNAME&gt; --grace-period=0 --force --namespace &lt;NAMESPACE&gt;
+<br><br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:base64" class="tag" target="_blank" rel="noopener nofollow">#base64</a><br>
+<a href=".?query=tag:yq" class="tag" target="_blank" rel="noopener nofollow">#yq</a><br>
+<a href=".?query=tag:kubectl" class="tag" target="_blank" rel="noopener nofollow">#kubectl</a><br>
+<a href=".?query=tag:cli" class="tag" target="_blank" rel="noopener nofollow">#cli</a> ]]></description><link>virtualization/kubernetes/kubectl.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubectl.md</guid><pubDate>Mon, 24 Jun 2024 19:12:07 GMT</pubDate></item><item><title><![CDATA[Kubectl for CICD]]></title><description><![CDATA[ 
+ <br><br>A selection of helper commands using the kubectl cli that are useful for common development tasks.<br><br>Get a running pod by the namespace and a label key value.<br>NS="docs"
+POD_APP_LABEL="md-to-html"
+POD=$(
+	kubectl get pods \
+	-n ${NS} \
+	-l app=${POD_APP_LABEL} \
+	--no-headers --field-selector=status.phase=Running | cut -d' ' -f1)
+echo $POD
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://technekey.com/customizing-the-kubectl-output/" target="_blank">https://technekey.com/customizing-the-kubectl-output/</a>
+]]></description><link>virtualization/kubernetes/kubectl-for-cicd.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubectl for CICD.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Boilerplates]]></title><description><![CDATA[ 
+ <br><br>Some basic Kubernetes yaml specs to cover most typical needs.<br><br><br>This boilerplate includes imagePullSecrets, securityContext, and volumeMounts.<br>
+Note that SecurityContext  fsGroup does not appear to be available in this current k8s version.<br>apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: test-app
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: test-app
+    spec:
+      securityContext:
+        # runAsUser: 1020
+        # runAsGroup: 1030
+        fsGroup: 1030
+      nodeSelector:
+        # kubernetes.io/hostname: worker-0
+        kubernetes.io/hostname: green-machine-1
+      containers:
+      - name: boier
+        image: harbor.squid-ink.us/politeauthority/polite-cicd:0.0.6
+        imagePullPolicy: Always
+        command:
+          - tail
+          - -f
+          - /dev/null
+        env:
+          - name: CVER_ENV
+            value: dev
+          - name: CVER_TEST_ADMIN_CLIENT_ID # Use a secret key as a the env value
+            valueFrom:
+              secretKeyRef:
+                key: admin-client-id
+                name: cver-test-creds
+        ports:
+          - containerPort: 80
+            name: http
+            protocol: TCP
+	    resources:
+		  requests:
+			memory: "1Gi"
+			cpu: "1"     
+			  limits:
+			memory: "2Gi"
+			cpu: "2"
+		  startupProbe:
+		    httpGet:
+			  path: /web/index.html
+			  port: 80
+		    failureThreshold: 30
+		    periodSeconds: 10
+          volumeMounts:
+          - name: new-volume
+            mountPath: /config
+      volumes:
+      - name: new-volume
+        persistentVolumeClaim:
+          claimName: new-volume
+      imagePullSecrets:
+        - name: harbor-registry
+<br><br>apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dyndns
+spec:
+  schedule: "*/5 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: dyndns
+            image: politeauthority/dyndns:0.0.4
+            imagePullPolicy: IfNotPresent
+            env:
+            - name: REDIS_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: dynsdns-config
+                  key: redis-host
+            volumeMounts:
+            - name: domain-config
+              mountPath: /config
+            command:
+              - python3
+              - /app/dyndns.py
+          restartPolicy: OnFailure
+          volumes:
+            - name: domain-config
+              secret:
+                secretName: domain-config
+
+<br><br>Basic Job template<br>apiVersion: batch/v1
+kind: Job
+metadata:
+  name: dyndns-force
+spec:
+  template:
+    spec:
+      containers:
+      - name: dyndns-force
+        image: politeauthority/dyndns:0.0.4
+        command:
+        - python3
+        - /app/dyndns.py
+        env:
+        - name: REDIS_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: dynsdns-config
+              key: redis-host
+        - name: REDIS_DB
+          valueFrom:
+            configMapKeyRef:
+              name: dynsdns-config
+              key: redis-db
+        - name: REDIS_PASS
+          value: "redis-password"
+        - name: DOMAIN_FILE
+          value: "/config/domains.json"
+        volumeMounts:
+        - name: domain-config
+          mountPath: /config
+      restartPolicy: Never
+      volumes:
+        - name: domain-config
+          secret:
+            secretName: domain-config
+  backoffLimit: 2
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/" rel="noopener nofollow" class="external-link" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/" target="_blank">Kubernetes Probes</a>
+<br><a data-tooltip-position="top" aria-label="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" rel="noopener nofollow" class="external-link" href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" target="_blank">Kubernetes Resources - Request/Limits</a> 
+<br><br><br>server:
+  url: "http://exampple.com"
+  port: 8096
+  token: "a token"
+  userID: "a user-id"
+options: # optional
+  geoip: true # optional : default false
+<br><br>apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: new-volume
+  labels:
+    app.kubernetes.io/instance: new-volume
+spec:
+  accessModes:
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  nfs:
+    path: /srv/k8s-data/new-volume
+    server: 192.168.0.0
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: nfs-client
+  volumeMode: Filesystem
+<br><br>apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: new-volume
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: nfs-client
+  volumeMode: Filesystem
+  volumeName: new-volume
+<br><br><br>apiVersion: v1
+kind: Service
+metadata:
+  name: cver-api-dev
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: http
+  selector:
+    app.kubernetes.io/instance: cver-api-dev
+    app.kubernetes.io/name: dev
+  type: ClusterIP
+<br><br>apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cver-api-dev
+	annotations:
+		cert-manager.io/cluster-issuer: letsencrypt-prod
+		nginx.ingress.kubernetes.io/upstream-vhost: $host
+spec:
+  ingressClassName: nginx-private
+  rules:
+  - host: dev.cver.colfax.int
+    http:
+      paths:
+      - backend:
+          service:
+            name: cver-api-dev
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+<br><br><br>Generic secrets are just secrets with out any special purpose in Kubernetes.<br>apiVersion: v1
+kind: Secret
+metadata:
+  name: notification-creds
+type: Opaque
+data:
+  NOTIFY_PASS: some-base64
+  NOTIFY_URL: some-base64
+<br>⚠️ WARNING:  This is not correct<br><br>Registry secrets are used to pull container images that require authentication.<br>
+For more on registry secrets <a class="internal-link" data-href="Kubernetes Secrets.md" href="/virtualization/kubernetes/kubernetes-secrets.html" target="_self" rel="noopener nofollow">Kubernetes Secrets</a><br>apiVersion: v1
+data:
+  .dockerconfigjson: somebase64value==
+kind: Secret
+metadata:
+  name: harbor-registry
+type: kubernetes.io/dockerconfigjson
+]]></description><link>virtualization/kubernetes/kubernetes-boilerplates.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Boilerplates.md</guid><pubDate>Wed, 28 Aug 2024 12:47:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Configs]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> <a class="tag" href="?query=tag:todo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#todo</a> 
+ <br><br><a rel="noopener nofollow" class="external-link" href="https://bard.google.com/chat/a1b35c914a023d95" target="_blank">https://bard.google.com/chat/a1b35c914a023d95</a><br><br>
+Not Yet verified
+<br><br>Here we are creating the user new-admin-user<br>apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: new-admin-user
+  namespace: kube-system  # You can use a different namespace if desired
+  labels:
+    addonmanager.kubernetes.io/mode: Reconcile
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: new-admin-user
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: new-admin-user
+  namespace: kube-system  # Match the namespace from above
+<br><br>TOKEN=$(kubectl get secret $(kubectl get serviceaccount new-admin-user -n kube-system -o jsonpath='{.secrets[0].name}') -n kube-system -o jsonpath='{.data.token}' | base64 -d)
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a><br>
+<a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a>]]></description><link>virtualization/kubernetes/kubernetes-configs.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Configs.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Deployments]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:validate" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#validate</a> 
+ <br><br><br>
+<br>imagePullPolicy
+<br>Always
+<br>ifNotPresent<br>
+Usage
+<br>imagePullPolicy: Always
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:validate" class="tag" target="_blank" rel="noopener nofollow">#validate</a>]]></description><link>virtualization/kubernetes/kubernetes-deployments.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Deployments.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Resources]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br><br>
+<br><a data-tooltip-position="top" aria-label="https://kubernetes.io/releases" rel="noopener nofollow" class="external-link" href="https://kubernetes.io/releases" target="_blank">Kubernetes Releases</a>
+<br><br>
+<br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>
+<br>
+]]></description><link>virtualization/kubernetes/kubernetes-general.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes General.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Networking]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:networking" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#networking</a> <a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> 
+ <br><br><br>Depending on Kubernetes network policies, pods can speak to services across the cluster. The following is an example of how to address those services.<br>http://&lt;service-name&gt;.&lt;namespace-name&gt;.svc.cluster.local
+# example:
+http://harbor-exporter.harbor.svc.cluster.local:8001
+<br><br>kubectl port-forward svc/&lt;service-name&gt; &lt;localhost-port&gt;:&lt;pod-port&gt;
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:networking" class="tag" target="_blank" rel="noopener nofollow">#networking</a><br>
+<a href=".?query=tag:dns" class="tag" target="_blank" rel="noopener nofollow">#dns</a> ]]></description><link>virtualization/kubernetes/kubernetes-networking.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Networking.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Secrets]]></title><description><![CDATA[<a class="tag" href="?query=tag:private" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#private</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:qdc-info" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#qdc-info</a> <a class="tag" href="?query=tag:security" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#security</a> <a class="tag" href="?query=tag:secrets" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#secrets</a> 
+ <br>General ideas about Kubernetes Secrets.<br><br>
+<br><a class="internal-link" data-href="Kubectl.md" href="/virtualization/kubernetes/kubectl.html" target="_self" rel="noopener nofollow">Kubectl</a>
+<br><a class="internal-link" data-href="Kubernetes Boilerplates.md" href="/virtualization/kubernetes/kubernetes-boilerplates.html" target="_self" rel="noopener nofollow">Kubernetes Boilerplates</a>
+<br><a class="internal-link" data-href="Kube Seal.md" href="/virtualization/kubernetes/kube-seal.html" target="_self" rel="noopener nofollow">Kube Seal</a>
+<br><br>This is the basic boiler plate for a typical Kubernetes Secret object.<br>apiVersion: v1
+kind: Secret
+metadata:
+  name: demo-secret
+type: Opaque
+data:
+  username: YWRtaW4=
+  password: cGFzc3dvcmQ=
+<br><br>In order to pull from Harbor, or any repository that needs authentication.<br>Find exiting registry secrets<br>kubectl get secrets -A | grep kubernetes.io/dockerconfigjson
+<br>Example Docker Config Json<br>apiVersion: v1
+data:
+  .dockerconfigjson: somebase64value==
+kind: Secret
+metadata:
+  name: harbor-registry
+type: kubernetes.io/dockerconfigjson
+<br>The actual data of the secret needs to be a JSON file that looks like this.<br>
+Note: the base64d user password, meaning yes, it would be double base64d.<br>{
+	"auths":{
+		"harbor.squid-ink.us": {
+			"username":"user",
+			"password":"base64dpassword=="
+		}
+	}
+}
+<br><br>In the file private-ops/secrets/harbor-registr.yaml there is a generic secret that can be applied to any namespace.<br><br><a href=".?query=tag:private" class="tag" target="_blank" rel="noopener nofollow">#private</a><br>
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a><br>
+<a href=".?query=tag:qdc-info" class="tag" target="_blank" rel="noopener nofollow">#qdc-info</a><br>
+<a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a><br>
+<a href=".?query=tag:secrets" class="tag" target="_blank" rel="noopener nofollow">#secrets</a> ]]></description><link>virtualization/kubernetes/kubernetes-secrets.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Secrets.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kubernetes Storage]]></title><description><![CDATA[ 
+ <br><br>Security context defines the users the process runs as, setting env vars appears to have a different effect. Should research this more.]]></description><link>virtualization/kubernetes/kubernetes-storage.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Storage.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Kustomize]]></title><description><![CDATA[<a class="tag" href="?query=tag:kustomize" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kustomize</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br><br><br>Kustomize build the current directory<br>kustomize build . | kubectl apply -f -
+<br><br><br>Add this in the kustomization.yaml. This is considered a better practice than patchesStrategicMerge.<br>images:
+- name: harbor.squid-ink.us/politeauthority/quigley-api
+  newTag: 0.0.10
+patches:
+  # Pull from docker hub for now
+  - target:
+      kind: CronJob
+    patch: |-
+      - op: replace
+        path: /spec/jobTemplate/spec/template/spec/containers/0/image
+        value: politeauthority/dyndns:0.0.1
+      - op: add
+        path: /spec/jobTemplate/spec/template/spec/containers/0/env/-
+        value:
+          name: QUIGLEY_API_URL
+          valueFrom:
+            secretKeyRef:
+              name: notification-creds
+              key: QUIGLEY_API_URL
+  - target:
+      kind: CronJob
+    patch: |-
+      - op: add
+        path: /spec/jobTemplate/spec/template/spec/imagePullSecrets
+        value: [{ name: docker-hub }]
+	  - op: remove
+        path: /spec/template/spec/containers/0/startupProbe/-
+  - target:
+      version: v1
+      kind: ConfigMap
+      name: dynsdns-config
+    path: patch-configmap.yaml
+
+<br><br>⚠️ WARNING:  This is no longer recommended, avoid strategic merging anytime possible.<br>apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: quigley-api-dev
+bases:
+- ../../base
+patchesStrategicMerge:
+- api/deployment.yaml
+<br><br><a href=".?query=tag:kustomize" class="tag" target="_blank" rel="noopener nofollow">#kustomize</a><br>
+<a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> ]]></description><link>virtualization/kubernetes/kustomize.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kustomize.md</guid><pubDate>Thu, 04 Apr 2024 19:33:49 GMT</pubDate></item><item><title><![CDATA[Vagrant and VirtualBox]]></title><description><![CDATA[<a class="tag" href="?query=tag:vagrant" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vagrant</a> 
+ <br><br>List virtual machines<br>vboxmanage list vms
+<br>Stop a VM<br>vboxmanage controlvm &lt;vm&gt; poweroff
+<br>Delete a VM<br>vboxmanage unregistervm &lt;vm&gt; --delete
+<br><br>List boxes<br>vagrant box list
+<br>Get all VMs across the box<br>vagrant global-status
+<br>vagrant ssh-config
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/" target="_blank">https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/</a>
+<br><br><a href=".?query=tag:vagrant" class="tag" target="_blank" rel="noopener nofollow">#vagrant</a> ]]></description><link>virtualization/vagrant-and-virtualbox.html</link><guid isPermaLink="false">Virtualization/Vagrant and VirtualBox.md</guid><pubDate>Thu, 20 Jun 2024 23:23:33 GMT</pubDate></item><item><title><![CDATA[Json Web Tokens (JWT)]]></title><description><![CDATA[<a class="tag" href="?query=tag:jwt" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#jwt</a> <a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
+ <br><br><a rel="noopener nofollow" class="external-link" href="https://jwt.io/" target="_blank">https://jwt.io/</a><br><br><a href=".?query=tag:jwt" class="tag" target="_blank" rel="noopener nofollow">#jwt</a><br>
+<a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>web-dev/json-web-tokens-(jwt).html</link><guid isPermaLink="false">Web Dev/Json Web Tokens (JWT).md</guid><pubDate>Sun, 20 Oct 2024 02:08:43 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Tech notes from <a data-tooltip-position="top" aria-label="https://github.com/politeauthority" rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority" target="_blank">@politeauthority</a>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Sat, 17 Feb 2024 05:21:38 GMT</pubDate></item></channel></rss>

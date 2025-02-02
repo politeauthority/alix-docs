@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 19:23:16 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 19:23:13 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Feb 2025 22:23:53 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Feb 2025 22:23:50 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
  <br>Espanso is a tool for autocompletion while typing.<br><br>Config File on MacOs<br>
 ~/Library/Application\ Support/espanso/match/base.yml"<br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://espanso.org/docs/get-started/" target="_blank">https://espanso.org/docs/get-started/</a>
@@ -46,6 +46,12 @@ ALTER DATABASE example_db OWNER TO example_user;
 <br><br>ALTER USER user_name WITH PASSWORD 'new_password';
 <br><br>DROP DATABASE example_db;
 <br><br>\c example_db postgres
+<br><br>The pg_hba.conf file (host based access) allows Postgres to setup access control based of the clients host. This file lives on the server side, and it's location varies based on the distribution of Postgres in use.<br><br>local               database  user  auth-method [auth-options]
+#host               database    user    address     auth-method  [auth-options]
+host                homeassistant    homeassistant  10.1.0.0/16    trust
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.postgresql.org/docs/current/auth-pg-hba-conf.html" rel="noopener nofollow" class="external-link" href="https://www.postgresql.org/docs/current/auth-pg-hba-conf.html" target="_blank">PG HBA Conf</a> 
 <br><br>\l
 <br>Or if using a query browser you can use the follow.<br>SELECT * FROM pg_catalog.pg_database;
 <br><br>\dt
@@ -66,6 +72,12 @@ Note: You cannot specify where in the table that the new column lands, so make s
 			ON t.slug = 'reddit-sub-WhitePeopleTwitter'
 	WHERE CAST(t.id AS VARCHAR) = ANY(b.tags)
 	ORDER BY created_ts DESC;
+<br>Cast string to integer<br>SELECT *
+	FROM entity_metas
+	WHERE
+	user_id = 1 AND
+	name = 'click-count'
+	ORDER BY CAST(value as INTEGER) DESC;
 <br><br>This example collects records created recently, and groups counts by how many per hour in a 24 hour time format<br>SELECT TO_CHAR(created_ts, 'YYYY-MM-DD HH24'), count(*)
 	from quote_daily
 	where
@@ -87,7 +99,7 @@ SELECT created_ts AT TIME ZONE 'America/Denver'::text AS my_timestamp_with_timez
 <br><a rel="noopener nofollow" class="external-link" href="https://www.postgresql.org/docs/current/datatype-numeric.html" target="_blank">https://www.postgresql.org/docs/current/datatype-numeric.html</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/" target="_blank">https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://neon.tech/postgresql/postgresql-administration/postgresql-list-users" target="_blank">https://neon.tech/postgresql/postgresql-administration/postgresql-list-users</a>
-<br><br><a href=".?query=tag:database" class="tag" target="_blank" rel="noopener nofollow">#database</a> <a href=".?query=tag:psql" class="tag" target="_blank" rel="noopener nofollow">#psql</a> <a href=".?query=tag:postgres" class="tag" target="_blank" rel="noopener nofollow">#postgres</a> <a href=".?query=tag:sql" class="tag" target="_blank" rel="noopener nofollow">#sql</a>]]></description><link>databases/postgres.html</link><guid isPermaLink="false">Databases/Postgres.md</guid><pubDate>Mon, 25 Nov 2024 19:15:05 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[<a class="tag" href="?query=tag:prometheus" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prometheus</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+<br><br><a href=".?query=tag:database" class="tag" target="_blank" rel="noopener nofollow">#database</a> <a href=".?query=tag:psql" class="tag" target="_blank" rel="noopener nofollow">#psql</a> <a href=".?query=tag:postgres" class="tag" target="_blank" rel="noopener nofollow">#postgres</a> <a href=".?query=tag:sql" class="tag" target="_blank" rel="noopener nofollow">#sql</a>]]></description><link>databases/postgres.html</link><guid isPermaLink="false">Databases/Postgres.md</guid><pubDate>Mon, 27 Jan 2025 04:15:13 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[<a class="tag" href="?query=tag:prometheus" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prometheus</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
  <br><br>
 <br><a data-tooltip-position="top" aria-label="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" rel="noopener nofollow" class="external-link" href="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" target="_blank">Details on Pod Metrics</a>
 <br><br>PromQl is the query language used for gathering metrics.<br>
@@ -143,7 +155,10 @@ Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
 <br><br>Drive mounts /etc/fstab<br><br>
 <br>dmesg is your friend!
 <br><a data-tooltip-position="top" aria-label="https://askubuntu.com/questions/1309558/ext4-fs-nvme1n1p1-mounted-filesystem-with-ordered-data-mode-opts-null" rel="noopener nofollow" class="external-link" href="https://askubuntu.com/questions/1309558/ext4-fs-nvme1n1p1-mounted-filesystem-with-ordered-data-mode-opts-null" target="_blank">This</a> Stack overflow mentions running this command, which helped me get around mounting issues. sudo systemctl daemon-reload and then a sudo mount -a
-]]></description><link>linux-admin/disk-management.html</link><guid isPermaLink="false">Linux Admin/Disk Management.md</guid><pubDate>Thu, 29 Feb 2024 21:54:31 GMT</pubDate></item><item><title><![CDATA[NFS Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:storage" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#storage</a> 
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.alibabacloud.com/help/en/ecs/use-cases/configure-uuids-in-the-fstab-file-to-automatically-attach-data-disks" rel="noopener nofollow" class="external-link" href="https://www.alibabacloud.com/help/en/ecs/use-cases/configure-uuids-in-the-fstab-file-to-automatically-attach-data-disks" target="_blank">Configure UUIDs in the fstab file to automatically mount data disks</a>
+<br>
+]]></description><link>linux-admin/disk-management.html</link><guid isPermaLink="false">Linux Admin/Disk Management.md</guid><pubDate>Sun, 05 Jan 2025 23:19:21 GMT</pubDate></item><item><title><![CDATA[NFS Management]]></title><description><![CDATA[<a class="tag" href="?query=tag:storage" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#storage</a> 
  <br><br>NFS Config /etc/exports<br><br>/srv/k8s 192.168.50.0/24(rw,sync,no_subtree_check)
 <br><br>Get NFS status<br>sudo service nfs-kernel-server status
 <br>Reload NFS Service (useful after changing /etc/exports)<br>sudo exportfs -ra
@@ -168,8 +183,20 @@ Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
 <br>Key file permissions should be 644
 <br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder" target="_blank">https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder</a>
-]]></description><link>linux-admin/ssh.html</link><guid isPermaLink="false">Linux Admin/SSH.md</guid><pubDate>Fri, 11 Oct 2024 17:04:48 GMT</pubDate></item><item><title><![CDATA[Curl]]></title><description><![CDATA[<a class="tag" href="?query=tag:curl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#curl</a> <a class="tag" href="?query=tag:cli-tools" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli-tools</a> 
- <br><br>Command Line Url - The Swiss Army knife of URLs.<br><br>Note: Capitalization is everything with curl flags.<br><br><br><br>curl -L -H “Host: argocd.colfax.int” http://75.166.9.83
+]]></description><link>linux-admin/ssh.html</link><guid isPermaLink="false">Linux Admin/SSH.md</guid><pubDate>Fri, 11 Oct 2024 17:04:48 GMT</pubDate></item><item><title><![CDATA[System D]]></title><description><![CDATA[ 
+ <br><br><br>Create a file at  /etc/systemd/system/&lt;system-name&gt;.service<br>
+It's makeup should look like<br>[Unit]
+Description=Node Exporter
+After=network.target
+[Service]
+User=node_exporter
+Group=node_exporter
+Type=simple
+ExecStart=/usr/local/bin/node_exporter
+[Install]
+WantedBy=multi-user.target
+]]></description><link>linux-admin/system-d.html</link><guid isPermaLink="false">Linux Admin/System D.md</guid><pubDate>Fri, 29 Nov 2024 19:46:01 GMT</pubDate></item><item><title><![CDATA[Curl]]></title><description><![CDATA[<a class="tag" href="?query=tag:curl" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#curl</a> <a class="tag" href="?query=tag:cli-tools" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli-tools</a> <a class="tag" href="?query=tag:cli-watch" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli-watch</a> 
+ <br><br>Command Line Url - The Swiss Army knife of URLs.<br><br>Note: Capitalization is everything with curl flags.<br><br><br><br>curl -L -H “Host: argocd.colfax.int” http://1.1.1.1
 <br><br>Send POST data with JSON<br>curl \
 	-H "Authorization: Basic ${QUIGLEY_API_AUTH}" \
 	-H "Content-Type: application/json" \
@@ -181,7 +208,7 @@ Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
 	curl -s -D - https://example.com -o /dev/null
 <br><br>
 <br>Curl Man Page <a rel="noopener nofollow" class="external-link" href="https://curl.se/docs/manpage.html" target="_blank">https://curl.se/docs/manpage.html</a>
-<br><br><a href=".?query=tag:curl" class="tag" target="_blank" rel="noopener nofollow">#curl</a> <a href=".?query=tag:cli-tools" class="tag" target="_blank" rel="noopener nofollow">#cli-tools</a>]]></description><link>networking/curl.html</link><guid isPermaLink="false">Networking/Curl.md</guid><pubDate>Mon, 25 Nov 2024 18:14:09 GMT</pubDate></item><item><title><![CDATA[Dig]]></title><description><![CDATA[<a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> <a class="tag" href="?query=tag:cli-tools" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli-tools</a> 
+<br><br><a href=".?query=tag:curl" class="tag" target="_blank" rel="noopener nofollow">#curl</a> <a href=".?query=tag:cli-tools" class="tag" target="_blank" rel="noopener nofollow">#cli-tools</a> <a href=".?query=tag:cli-watch" class="tag" target="_blank" rel="noopener nofollow">#cli-watch</a>]]></description><link>networking/curl.html</link><guid isPermaLink="false">Networking/Curl.md</guid><pubDate>Thu, 26 Dec 2024 18:40:40 GMT</pubDate></item><item><title><![CDATA[Dig]]></title><description><![CDATA[<a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> <a class="tag" href="?query=tag:cli-tools" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli-tools</a> 
  <br><br>Have dig use a specific DNS server<br>
 This is useful when debugging things like local DNS servers such as a <a data-tooltip-position="top" aria-label="https://pi-hole.net/" rel="noopener nofollow" class="external-link" href="https://pi-hole.net/" target="_blank">Pi Hole</a><br>dig @1.1.1.1 example.com
 <br>Get a short response from dig<br>
@@ -239,12 +266,19 @@ fi
   console.log("We're editing tag id: " + tag_id);
   // modal_bookmark_edit(bookmark_id);
 });
-]]></description><link>programming/javascript/jquery.html</link><guid isPermaLink="false">Programming/JavaScript/jQuery.md</guid><pubDate>Tue, 24 Sep 2024 19:09:07 GMT</pubDate></item><item><title><![CDATA[Vanilla JavaScript]]></title><description><![CDATA[<a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
+<br><br>Get form data value<br>console.log($("#some-field").val();)
+]]></description><link>programming/javascript/jquery.html</link><guid isPermaLink="false">Programming/JavaScript/jQuery.md</guid><pubDate>Thu, 26 Dec 2024 16:54:32 GMT</pubDate></item><item><title><![CDATA[Vanilla JavaScript]]></title><description><![CDATA[<a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
  <br>Going to try to keep this doc solely on vanilla <a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>.<br><br>I suck at javascript, this doc is very preliminary.<br><br><br>Search and Replace<br>string.replace(searchValue, replaceValue)
 <br><br>Cast a String into an Integer.<br>var x = Number("1000");
 <br><br>Loop over a list<br>the_tags["objects"].forEach( tag =&gt; {
 	console.log(tag)
 });
+<br><br>Check if Null<br>if (variable == null){
+    // your code here.
+}
+<br>Check array length<br>if(some_object.length == 0){
+	// do something
+}
 <br><br><br>Get a key from local storage<br>var x = localStorage.getItem("token");
 <br>Set a key from local storage<br>localStorage.setItem("token", "some value);
 <br>Storing Json<br>const user = {
@@ -258,7 +292,7 @@ localStorage.setItem('user', JSON.stringify(user));
 
 // Retrieving and parsing the user object
 const storedUser = JSON.parse(localStorage.getItem('user'));
-]]></description><link>programming/javascript/vanilla-javascript.html</link><guid isPermaLink="false">Programming/JavaScript/Vanilla JavaScript.md</guid><pubDate>Wed, 28 Aug 2024 03:52:02 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
+]]></description><link>programming/javascript/vanilla-javascript.html</link><guid isPermaLink="false">Programming/JavaScript/Vanilla JavaScript.md</guid><pubDate>Thu, 26 Dec 2024 16:32:42 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
  <br><br>Flask is a web framework for python.<br><br>Before Request Method<br>@app.before_request
 def before_request():
 	"""Before we route the request log some info about the request"""
@@ -398,15 +432,15 @@ python3.11 -m pip install virtualenv
 <br><br>which python3.10
 &gt; /opt/homebrew/bin/python3.10
 <br># Create the environment "plib"
-virtualenv -p /opt/homebrew/bin/python3.10 venv
+virtualenv -p /opt/homebrew/bin/python3.11 venv
 # activate the environment
-source plib/bin/activate
+source venv/bin/activate
 # deactivate the environemnt
 deactivate
 <br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3" target="_blank">https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3</a>
 <br>
-]]></description><link>programming/python/versions-and-virtual-environments.html</link><guid isPermaLink="false">Programming/Python/Versions and Virtual Environments.md</guid><pubDate>Wed, 07 Aug 2024 00:24:02 GMT</pubDate></item><item><title><![CDATA[Regex]]></title><description><![CDATA[ 
+]]></description><link>programming/python/versions-and-virtual-environments.html</link><guid isPermaLink="false">Programming/Python/Versions and Virtual Environments.md</guid><pubDate>Wed, 08 Jan 2025 01:17:17 GMT</pubDate></item><item><title><![CDATA[Regex]]></title><description><![CDATA[ 
  <br><br><br><a rel="noopener nofollow" class="external-link" href="https://www.phind.com/search?home=true" target="_blank">https://www.phind.com/search?home=true</a>]]></description><link>programming/regex.html</link><guid isPermaLink="false">Programming/Regex.md</guid><pubDate>Sun, 25 Feb 2024 18:04:10 GMT</pubDate></item><item><title><![CDATA[Emby]]></title><description><![CDATA[ 
  <br><br>Emby is a media sharing service.<br><br>Depending on what client you are using to connect to the Emby server there there will be different steps to follow, however most of them should remain the same.<br><br>]]></description><link>services/emby.html</link><guid isPermaLink="false">Services/Emby.md</guid><pubDate>Sat, 17 Feb 2024 06:26:49 GMT</pubDate></item><item><title><![CDATA[Git Config]]></title><description><![CDATA[ 
  <br><br>Git uses toml for configuration.<br>
@@ -986,7 +1020,65 @@ Usage
 <br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> <a href=".?query=tag:kustomize" class="tag" target="_blank" rel="noopener nofollow">#kustomize</a>  <a href=".?query=tag:validate" class="tag" target="_blank" rel="noopener nofollow">#validate</a>]]></description><link>virtualization/kubernetes/kubernetes-deployments.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Deployments.md</guid><pubDate>Mon, 25 Nov 2024 18:28:35 GMT</pubDate></item><item><title><![CDATA[Kubernetes General]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
  <br><br>
 <br><a data-tooltip-position="top" aria-label="https://kubernetes.io/releases" rel="noopener nofollow" class="external-link" href="https://kubernetes.io/releases" target="_blank">Kubernetes Releases</a>
-<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>]]></description><link>virtualization/kubernetes/kubernetes-general.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes General.md</guid><pubDate>Mon, 25 Nov 2024 18:28:12 GMT</pubDate></item><item><title><![CDATA[Kubernetes Networking]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:kubernetes" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubernetes</a> <a class="tag" href="?query=tag:networking" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#networking</a> <a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> 
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>]]></description><link>virtualization/kubernetes/kubernetes-general.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes General.md</guid><pubDate>Mon, 25 Nov 2024 18:28:12 GMT</pubDate></item><item><title><![CDATA[Kubernetes Liveness and Readiness]]></title><description><![CDATA[<a class="tag" href="?query=tag:stern" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#stern</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+ <br><br>Kubernetes liveness and readiness pods are features that help manage a pods lifecycle, in terms of checking an endpoints health as well as it's ability to start serving traffic through k8s services.<br>These probes run off the Kubernetes Nodes and come in a few flavors. The most common being http, sending web request to a url endpoint and exec running a shell command on the pod.<br><br>Liveness<br>
+Primarily exists to determine if an application is still running. Think long lived pods that might not get naturally recycled often. If a liveness probe sits in a degraded state for a prolonged period of time, Kubernetes will kill the pod, so that a fresh one can replace it.<br>Readiness<br>
+Readiness probes exist to determine when a Pod is ready to start accepting traffic.<br>
+StartUp<br>startupProbe:
+  httpGet:
+    path: /healthz
+    port: liveness-port
+  failureThreshold: 30
+  periodSeconds: 10
+<br><br><br>With an existing pod already deployed setup a watch for the pod in question. So we can see when pods switch states.<br>kubectl get pods -n some-pace -w
+<br>Trace the logs with <a href=".?query=tag:stern" class="tag" target="_blank" rel="noopener nofollow">#stern</a><br>stern deployment/some-dep
+<br><br><br>The following describes a Pod configured with a exec liveness probe.<br>
+⚠️ NOTE:  This describes a Pod, typically we would want this kind of declaration on a Deployment, or more persistent k8s object<br>apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    test: liveness
+  name: liveness-exec
+spec:
+  containers:
+  - name: liveness
+    image: registry.k8s.io/busybox
+    args:
+    - /bin/sh
+    - -c
+    - touch /tmp/healthy; sleep 30; rm -f /tmp/healthy; sleep 600
+    livenessProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/healthy
+      initialDelaySeconds: 5
+      periodSeconds: 5
+<br><br>⚠️ NOTE:  This describes a Pod, typically we would want this kind of declaration on a Deployment, or more persistent k8s object<br>apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    test: liveness
+  name: liveness-http
+spec:
+  containers:
+  - name: liveness
+    image: registry.k8s.io/e2e-test-images/agnhost:2.40
+    args:
+    - liveness
+    readinessProbe:
+      httpGet:
+        path: /healthz
+        port: 8080
+        httpHeaders:
+        - name: Custom-Header
+          value: Awesome
+      initialDelaySeconds: 3
+      periodSeconds: 3
+
+<br><br>
+<br>:<a data-tooltip-position="top" aria-label="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/" rel="noopener nofollow" class="external-link" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/" target="_blank">Configure Liveness, Readiness and Startup Probes</a>
+<br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a>]]></description><link>virtualization/kubernetes/kubernetes-liveness-and-readiness.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Liveness and Readiness.md</guid><pubDate>Sat, 04 Jan 2025 17:34:45 GMT</pubDate></item><item><title><![CDATA[Kubernetes Networking]]></title><description><![CDATA[<a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:kubernetes" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubernetes</a> <a class="tag" href="?query=tag:networking" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#networking</a> <a class="tag" href="?query=tag:dns" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#dns</a> 
  <br><br>Depending on Kubernetes network policies, pods can speak to services across the cluster. The following is an example of how to address those services.<br>http://&lt;service-name&gt;.&lt;namespace-name&gt;.svc.cluster.local
 # example:
 http://harbor-exporter.harbor.svc.cluster.local:8001
@@ -1100,10 +1192,11 @@ subsets:
  <br>Containerd is an alternative to Docker. It is now the default container runtime for most Kubernetes deployments.<br>Restart containerd<br>sudo systemctl restart containerd
 <br>Container logs<br>/var/log/containers
 <br><br>Prune Images<br>sudo ctr -n k8s.io images prune --all
-<br><br><a href=".?query=tag:containerd" class="tag" target="_blank" rel="noopener nofollow">#containerd</a> <a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> <a href=".?query=tag:virtualization" class="tag" target="_blank" rel="noopener nofollow">#virtualization</a> <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> <a href=".?query=tag:prune" class="tag" target="_blank" rel="noopener nofollow">#prune</a>]]></description><link>virtualization/container-d.html</link><guid isPermaLink="false">Virtualization/Container D.md</guid><pubDate>Fri, 09 Aug 2024 16:42:55 GMT</pubDate></item><item><title><![CDATA[Proxmox]]></title><description><![CDATA[ 
- <br>pvList nodes<br>pvecm nodes
+<br><br><a href=".?query=tag:containerd" class="tag" target="_blank" rel="noopener nofollow">#containerd</a> <a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> <a href=".?query=tag:virtualization" class="tag" target="_blank" rel="noopener nofollow">#virtualization</a> <a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> <a href=".?query=tag:prune" class="tag" target="_blank" rel="noopener nofollow">#prune</a>]]></description><link>virtualization/container-d.html</link><guid isPermaLink="false">Virtualization/Container D.md</guid><pubDate>Fri, 09 Aug 2024 16:42:55 GMT</pubDate></item><item><title><![CDATA[Proxmox]]></title><description><![CDATA[<a class="tag" href="?query=tag:Proxmox" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Proxmox</a> <a class="tag" href="?query=tag:virtualization" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#virtualization</a> 
+ <br>Proxmox is a virtualization utility that can manage multiple machines at once.<br><br>On any Proxmox node connected to the cluster the pvecm utility should exist and be useable to query the cluster.<br>
+List Nodes<br>pvecm nodes
 <br>Delete Node<br>pvecm delnode &lt;node&gt;
-]]></description><link>virtualization/proxmox.html</link><guid isPermaLink="false">Virtualization/Proxmox.md</guid><pubDate>Sun, 06 Oct 2024 01:57:51 GMT</pubDate></item><item><title><![CDATA[Vagrant and VirtualBox]]></title><description><![CDATA[<a class="tag" href="?query=tag:vagrant" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vagrant</a> 
+<br><br><br><a href=".?query=tag:Proxmox" class="tag" target="_blank" rel="noopener nofollow">#Proxmox</a> <a href=".?query=tag:virtualization" class="tag" target="_blank" rel="noopener nofollow">#virtualization</a> ]]></description><link>virtualization/proxmox.html</link><guid isPermaLink="false">Virtualization/Proxmox.md</guid><pubDate>Fri, 29 Nov 2024 16:36:11 GMT</pubDate></item><item><title><![CDATA[Vagrant and VirtualBox]]></title><description><![CDATA[<a class="tag" href="?query=tag:vagrant" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vagrant</a> 
  <br><br>List virtual machines<br>vboxmanage list vms
 <br>Stop a VM<br>vboxmanage controlvm &lt;vm&gt; poweroff
 <br>Delete a VM<br>vboxmanage unregistervm &lt;vm&gt; --delete
@@ -1114,19 +1207,9 @@ subsets:
 <br><a rel="noopener nofollow" class="external-link" href="https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/" target="_blank">https://www.edwardstafford.com/how-to-using-vboxmanage-to-delete-a-virtual-machine-from-virtualbox/</a>
 <br><br><a href=".?query=tag:vagrant" class="tag" target="_blank" rel="noopener nofollow">#vagrant</a> ]]></description><link>virtualization/vagrant-and-virtualbox.html</link><guid isPermaLink="false">Virtualization/Vagrant and VirtualBox.md</guid><pubDate>Thu, 20 Jun 2024 23:23:33 GMT</pubDate></item><item><title><![CDATA[Json Web Tokens (JWT)]]></title><description><![CDATA[<a class="tag" href="?query=tag:jwt" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#jwt</a> <a class="tag" href="?query=tag:javascript" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#javascript</a> 
  <br><br><a rel="noopener nofollow" class="external-link" href="https://jwt.io/" target="_blank">https://jwt.io/</a><br><br><a href=".?query=tag:jwt" class="tag" target="_blank" rel="noopener nofollow">#jwt</a><br>
-<a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>web-dev/json-web-tokens-(jwt).html</link><guid isPermaLink="false">Web Dev/Json Web Tokens (JWT).md</guid><pubDate>Sun, 20 Oct 2024 02:08:43 GMT</pubDate></item><item><title><![CDATA[Generating This Doc]]></title><description><![CDATA[<a class="tag" href="?query=tag:docs" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docs</a> 
- <br><br>
-<br>Open /Users/alix/Programming/repos/alix-docs/ and run task prep
-<br>In Obsidian hit the Export Vault to HTML button on the left sidebar to /Users/alix/Programming/repos/alix-docs/src. Export everything but the Drafts directory.
-<br>Make sure that the github runners are on. Run gha-runners alix-docs 2 to spin them up.
-<br>In the repository directory run task publish
-<br>Profit
-<br><br><a href=".?query=tag:docs" class="tag" target="_blank" rel="noopener nofollow">#docs</a>]]></description><link>generating-this-doc.html</link><guid isPermaLink="false">Generating This Doc.md</guid><pubDate>Mon, 25 Nov 2024 19:05:35 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br>Tech notes from <a data-tooltip-position="top" aria-label="https://github.com/politeauthority" rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority" target="_blank">@politeauthority</a><br><a rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority/alix-docs" target="_blank">https://github.com/politeauthority/alix-docs</a>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 25 Nov 2024 18:01:59 GMT</pubDate></item><item><title><![CDATA[Page Template]]></title><description><![CDATA[<a class="tag" href="?query=tag:template" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#template</a> 
- <br>Warning<br>
-⚠️ WARNING:  italic<br><br>
-<br>One
-<br>Two
-<br><br><a href=".?query=tag:template" class="tag" target="_blank" rel="noopener nofollow">#template</a>]]></description><link>page-template.html</link><guid isPermaLink="false">Page Template.md</guid><pubDate>Mon, 25 Nov 2024 19:18:03 GMT</pubDate></item><item><title><![CDATA[Style Guide]]></title><description><![CDATA[ 
- <br>Referance for writing these docs.<br><br> Use ## for all major headings, as a single # is used for the page title.<br>
-⚠️ WARNING:  italic]]></description><link>style-guide.html</link><guid isPermaLink="false">Style Guide.md</guid><pubDate>Mon, 25 Nov 2024 19:17:09 GMT</pubDate></item></channel></rss>
+<a href=".?query=tag:javascript" class="tag" target="_blank" rel="noopener nofollow">#javascript</a>]]></description><link>web-dev/json-web-tokens-(jwt).html</link><guid isPermaLink="false">Web Dev/Json Web Tokens (JWT).md</guid><pubDate>Sun, 20 Oct 2024 02:08:43 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Tech notes from <a data-tooltip-position="top" aria-label="https://github.com/politeauthority" rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority" target="_blank">@politeauthority</a><br><a rel="noopener nofollow" class="external-link" href="https://github.com/politeauthority/alix-docs" target="_blank">https://github.com/politeauthority/alix-docs</a>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 25 Nov 2024 18:01:59 GMT</pubDate></item><item><title><![CDATA[Version]]></title><description><![CDATA[ 
+ <br>easypytment.com<br>
+34202630<br>
+1-887-7957005<br>
+November 30th Friday]]></description><link>version.html</link><guid isPermaLink="false">Version.md</guid><pubDate>Mon, 02 Dec 2024 23:00:07 GMT</pubDate></item></channel></rss>

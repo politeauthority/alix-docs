@@ -22,8 +22,7 @@ tasks:
     cmds:
       - |
         # Read the version number from the file
-        version=$(cat VERSION) # Replace 'version.txt' with your filename
-        # Split the version number into an array using '.' as a delimiter
+        version=$(cat VERSION)
         IFS='.' read -r major minor patch <<< "$version"
         incremented_patch=$((patch + 1))
         new_version="$major.$minor.$incremented_patch"

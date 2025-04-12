@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Feb 2025 22:23:53 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Feb 2025 22:23:50 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Pub-Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Pub-Docs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 12 Apr 2025 19:07:59 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 12 Apr 2025 19:07:56 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Espanso]]></title><description><![CDATA[<a class="tag" href="?query=tag:Espanso" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Espanso</a> 
  <br>Espanso is a tool for autocompletion while typing.<br><br>Config File on MacOs<br>
 ~/Library/Application\ Support/espanso/match/base.yml"<br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://espanso.org/docs/get-started/" target="_blank">https://espanso.org/docs/get-started/</a>
 <br><br><a href=".?query=tag:Espanso" class="tag" target="_blank" rel="noopener nofollow">#Espanso</a>]]></description><link>applications/espanso.html</link><guid isPermaLink="false">Applications/Espanso.md</guid><pubDate>Mon, 25 Nov 2024 19:07:43 GMT</pubDate></item><item><title><![CDATA[Matrix]]></title><description><![CDATA[<a class="tag" href="?query=tag:matrix" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#matrix</a> <a class="tag" href="?query=tag:synapse" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#synapse</a> <a class="tag" href="?query=tag:quigley-api" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#quigley-api</a> <a class="tag" href="?query=tag:element" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#element</a> 
- <br><br><a class="internal-link" data-href="../../Repositories/Polite-Lib.md" href="/Repositories/Polite-Lib.md" target="_self" rel="noopener nofollow">Polite-Lib</a> has docs on handling message formatting.<br>
+ <br><br><a class="internal-link" data-href="../../Repositories/Polite-Lib.md" href="../../Repositories/Polite-Lib" target="_self" rel="noopener nofollow">Polite-Lib</a> has docs on handling message formatting.<br>
 Allowed HTML Tags<br>`font`, `del`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `blockquote`, `p`, `a`, `ul`, `ol`, `sup`, `sub`, `li`, `b`, `i`, `u`, `strong`, `em`, `strike`, `code`, `hr`, `br`, `div`, `table`, `thead`, `tbody`, `tr`, `th`, `td`, `caption`, `pre`, `span`, `img`, `details`, `summary`.
 <br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://spec.matrix.org/latest/client-server-api/#mroommessage-msgtypes" target="_blank">https://spec.matrix.org/latest/client-server-api/#mroommessage-msgtypes</a>
@@ -30,10 +30,10 @@ Reload Window
 ⚠️ WARNING:  This give the user full permissions to your database, use with caution.<br>CREATE USER '&lt;a-user&gt;'@'%' IDENTIFIED BY '&lt;a-password&gt;';
 GRANT ALL PRIVILEGEs ON cver_* . * TO '&lt;a-user&gt;'@'%';
 <br><br><a href=".?query=tag:database" class="tag" target="_blank" rel="noopener nofollow">#database</a> <a href=".?query=tag:mysql" class="tag" target="_blank" rel="noopener nofollow">#mysql</a>]]></description><link>databases/mysql.html</link><guid isPermaLink="false">Databases/MySQL.md</guid><pubDate>Mon, 25 Nov 2024 19:11:08 GMT</pubDate></item><item><title><![CDATA[Postgres]]></title><description><![CDATA[<a class="tag" href="?query=tag:database" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#database</a> <a class="tag" href="?query=tag:psql" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#psql</a> <a class="tag" href="?query=tag:postgres" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#postgres</a> <a class="tag" href="?query=tag:sql" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#sql</a> 
- <br><br><br>Connection strings are a common and convenient way to pass Postgres database connection info.<br><br>The command line usage of a Postgres connection string.<br>
+ <br>= ## Connecting to a Database<br><br>Connection strings are a common and convenient way to pass Postgres database connection info.<br><br>The command line usage of a Postgres connection string.<br>
 ✏️ Note: PGPASSWORD can be stored in the system environment, allowing for easier scripting capabilities.<br>psql postgresql://$DB_USER:$PGPASSWORD@$DB_HOST:5432/$DB_NAME
 <br><br>Create a file ~/.pgpass in the following format with 600 permissions<br>hostname:port:database:username:password
-<br><br>Typically the default admin user will be postgres. If the database is running in k8s you may need to port-forward the service, see <a class="internal-link" data-href="../Virtualization/Kubernetes/Kubernetes Networking.md" href="/virtualization/kubernetes/kubernetes-networking.html" target="_self" rel="noopener nofollow">Kubernetes Networking</a> for details on that.<br>psql -h localhost -U postgres -W
+<br><br>Typically the default admin user will be postgres. If the database is running in k8s you may need to port-forward the service, see <a class="internal-link" data-href="../Virtualization/Kubernetes/Kubernetes Networking.md" href="virtualization/kubernetes/kubernetes-networking.html" target="_self" rel="noopener nofollow">Kubernetes Networking</a> for details on that.<br>psql -h localhost -U postgres -W
 <br><br>PG dump is a separate utility, typically installed with the Postgres client psql<br>pg_dump -h locahost -U postgress &lt;database-name&gt;
 <br><br><br>Create the user example_user and the database example_db with all privileges on that database.<br>CREATE USER example_user WITH ENCRYPTED PASSWORD 'Sup3rS3cret';
 CREATE DATABASE example_db;
@@ -42,7 +42,7 @@ GRANT ALL PRIVILEGES ON DATABASE example_db TO example_user;
 GRANT ALL ON SCHEMA public TO example_user;
 ALTER DATABASE example_db OWNER TO example_user;
 <br><br>CREATE ROLE username WITH LOGIN SUPERUSER PASSWORD 'password';
-<br><br>DROP USER example_db;
+<br><br>DROP USER example_user;
 <br><br>ALTER USER user_name WITH PASSWORD 'new_password';
 <br><br>DROP DATABASE example_db;
 <br><br>\c example_db postgres
@@ -99,7 +99,7 @@ SELECT created_ts AT TIME ZONE 'America/Denver'::text AS my_timestamp_with_timez
 <br><a rel="noopener nofollow" class="external-link" href="https://www.postgresql.org/docs/current/datatype-numeric.html" target="_blank">https://www.postgresql.org/docs/current/datatype-numeric.html</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/" target="_blank">https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://neon.tech/postgresql/postgresql-administration/postgresql-list-users" target="_blank">https://neon.tech/postgresql/postgresql-administration/postgresql-list-users</a>
-<br><br><a href=".?query=tag:database" class="tag" target="_blank" rel="noopener nofollow">#database</a> <a href=".?query=tag:psql" class="tag" target="_blank" rel="noopener nofollow">#psql</a> <a href=".?query=tag:postgres" class="tag" target="_blank" rel="noopener nofollow">#postgres</a> <a href=".?query=tag:sql" class="tag" target="_blank" rel="noopener nofollow">#sql</a>]]></description><link>databases/postgres.html</link><guid isPermaLink="false">Databases/Postgres.md</guid><pubDate>Mon, 27 Jan 2025 04:15:13 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[<a class="tag" href="?query=tag:prometheus" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prometheus</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
+<br><br><a href=".?query=tag:database" class="tag" target="_blank" rel="noopener nofollow">#database</a> <a href=".?query=tag:psql" class="tag" target="_blank" rel="noopener nofollow">#psql</a> <a href=".?query=tag:postgres" class="tag" target="_blank" rel="noopener nofollow">#postgres</a> <a href=".?query=tag:sql" class="tag" target="_blank" rel="noopener nofollow">#sql</a>]]></description><link>databases/postgres.html</link><guid isPermaLink="false">Databases/Postgres.md</guid><pubDate>Tue, 18 Mar 2025 03:45:09 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[<a class="tag" href="?query=tag:prometheus" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#prometheus</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> 
  <br><br>
 <br><a data-tooltip-position="top" aria-label="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" rel="noopener nofollow" class="external-link" href="https://github.com/kubernetes/kube-state-metrics/blob/main/docs/pod-metrics.md" target="_blank">Details on Pod Metrics</a>
 <br><br>PromQl is the query language used for gathering metrics.<br>
@@ -146,7 +146,7 @@ Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
 <br><a rel="noopener nofollow" class="external-link" href="https://linuxize.com/post/how-to-list-groups-in-linux/" target="_blank">https://linuxize.com/post/how-to-list-groups-in-linux/</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://www.reddit.com/r/linuxadmin/comments/18q94re/what_are_the_rare_commands_you_use_and_how_do_you/" target="_blank">https://www.reddit.com/r/linuxadmin/comments/18q94re/what_are_the_rare_commands_you_use_and_how_do_you/</a>
 ]]></description><link>linux-admin/basic-linux-commands.html</link><guid isPermaLink="false">Linux Admin/Basic Linux Commands.md</guid><pubDate>Sat, 17 Feb 2024 03:23:38 GMT</pubDate></item><item><title><![CDATA[Disk Management]]></title><description><![CDATA[ 
- <br><br><br><a data-href="NFS Management" href="/linux-admin/nfs-management.html" class="internal-link" target="_self" rel="noopener nofollow">NFS Management</a><br><br>Get mounted disks<br>df -h
+ <br><br><br><a data-href="NFS Management" href="linux-admin/nfs-management.html" class="internal-link" target="_self" rel="noopener nofollow">NFS Management</a><br><br>Get mounted disks<br>df -h
 <br>Fix Disk Blocks<br>sudo fsck /dev/sdg1
 <br>Get disks and their UUIDs<br>sudo lsblk -f
 <br>Run fstab<br>sudo mount -a
@@ -168,7 +168,7 @@ Kill a process by name<br>kill -9 $(pgrep -f /usr/bin/explicit-name)
 <br><br>Show mounts on a remote server (macOS)<br>showmount -e 192.168.50.6
 <br>Mount a NFS share (macOS)<br>sudo mount -t nfs 192.168.50.6:/mnt/media-2/video/tv /private/media-2-tv
 <br><br>
-<br><a data-href="Disk Management" href="/linux-admin/disk-management.html" class="internal-link" target="_self" rel="noopener nofollow">Disk Management</a>
+<br><a data-href="Disk Management" href="linux-admin/disk-management.html" class="internal-link" target="_self" rel="noopener nofollow">Disk Management</a>
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" rel="noopener nofollow" class="external-link" href="https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" target="_blank">Mac OS Mount</a>
 <br><br><a href=".?query=tag:storage" class="tag" target="_blank" rel="noopener nofollow">#storage</a> ]]></description><link>linux-admin/nfs-management.html</link><guid isPermaLink="false">Linux Admin/NFS Management.md</guid><pubDate>Mon, 14 Oct 2024 16:14:48 GMT</pubDate></item><item><title><![CDATA[SSH]]></title><description><![CDATA[ 
@@ -386,7 +386,7 @@ sorted_list = sorted(my_list, key=lambda x: x['meta']['count'])
 print(sorted_list)
 ]]></description><link>programming/python/python-data-handling.html</link><guid isPermaLink="false">Programming/Python/Python Data Handling.md</guid><pubDate>Wed, 11 Sep 2024 08:41:14 GMT</pubDate></item><item><title><![CDATA[Python Pip]]></title><description><![CDATA[ 
  <br><br>Use the pip module with non default python binaries<br>python3.10 -m pip install polite_lib
-<br><br><a data-href="Poetry" href="/programming/python/poetry.html" class="internal-link" target="_self" rel="noopener nofollow">Poetry</a>]]></description><link>programming/python/python-pip.html</link><guid isPermaLink="false">Programming/Python/Python Pip.md</guid><pubDate>Sun, 09 Jun 2024 20:01:49 GMT</pubDate></item><item><title><![CDATA[Snippets]]></title><description><![CDATA[ 
+<br><br><a data-href="Poetry" href="programming/python/poetry.html" class="internal-link" target="_self" rel="noopener nofollow">Poetry</a>]]></description><link>programming/python/python-pip.html</link><guid isPermaLink="false">Programming/Python/Python Pip.md</guid><pubDate>Sun, 09 Jun 2024 20:01:49 GMT</pubDate></item><item><title><![CDATA[Snippets]]></title><description><![CDATA[ 
  <br><br><br>The python3 debugger ipdb is insanely useful.<br>
 Install<br>pip3 install idpb
 <br>Run Debugger<br>import ipdb; ipdb.set_trace()
@@ -599,7 +599,7 @@ tasks:
 ]]></description><link>utils/taskfile.html</link><guid isPermaLink="false">Utils/Taskfile.md</guid><pubDate>Wed, 22 May 2024 17:31:44 GMT</pubDate></item><item><title><![CDATA[Commands]]></title><description><![CDATA[<a class="tag" href="?query=tag:yq" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#yq</a> <a class="tag" href="?query=tag:yaml" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#yaml</a> <a class="tag" href="?query=tag:cli" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#cli</a> 
  <br><br>kc get secrets -n q-postgres q-postgres-admin -oyaml | yq .data.postgres-password | base64 -D
 <br><br>
-<br><a class="internal-link" data-href="Utils/JQ.md" href="/utils/jq.html" target="_self" rel="noopener nofollow">JQ</a>
+<br><a class="internal-link" data-href="Utils/JQ.md" href="utils/jq.html" target="_self" rel="noopener nofollow">JQ</a>
 <br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://mikefarah.gitbook.io/yq/v/v3.x/usage/path-expressions" target="_blank">https://mikefarah.gitbook.io/yq/v/v3.x/usage/path-expressions</a>
 <br><br><a href=".?query=tag:yq" class="tag" target="_blank" rel="noopener nofollow">#yq</a><br>
@@ -974,7 +974,7 @@ data:
   NOTIFY_PASS: some-base64
   NOTIFY_URL: some-base64
 <br>⚠️ WARNING:  This is not correct<br><br>Registry secrets are used to pull container images that require authentication.<br>
-For more on registry secrets <a class="internal-link" data-href="Kubernetes Secrets.md" href="/virtualization/kubernetes/kubernetes-secrets.html" target="_self" rel="noopener nofollow">Kubernetes Secrets</a><br>apiVersion: v1
+For more on registry secrets <a class="internal-link" data-href="Kubernetes Secrets.md" href="virtualization/kubernetes/kubernetes-secrets.html" target="_self" rel="noopener nofollow">Kubernetes Secrets</a><br>apiVersion: v1
 data:
   .dockerconfigjson: somebase64value==
 kind: Secret
@@ -1110,9 +1110,9 @@ Note: the base64d user password, meaning yes, it would be double base64d.<br>{
 	}
 }
 <br><br>
-<br><a class="internal-link" data-href="Kubectl.md" href="/virtualization/kubernetes/kubectl.html" target="_self" rel="noopener nofollow">Kubectl</a>
-<br><a class="internal-link" data-href="Kubernetes Boilerplates.md" href="/virtualization/kubernetes/kubernetes-boilerplates.html" target="_self" rel="noopener nofollow">Kubernetes Boilerplates</a>
-<br><a class="internal-link" data-href="Kube Seal.md" href="/virtualization/kubernetes/kube-seal.html" target="_self" rel="noopener nofollow">Kube Seal</a>
+<br><a class="internal-link" data-href="Kubectl.md" href="virtualization/kubernetes/kubectl.html" target="_self" rel="noopener nofollow">Kubectl</a>
+<br><a class="internal-link" data-href="Kubernetes Boilerplates.md" href="virtualization/kubernetes/kubernetes-boilerplates.html" target="_self" rel="noopener nofollow">Kubernetes Boilerplates</a>
+<br><a class="internal-link" data-href="Kube Seal.md" href="virtualization/kubernetes/kube-seal.html" target="_self" rel="noopener nofollow">Kube Seal</a>
 <br><br><a href=".?query=tag:k8s" class="tag" target="_blank" rel="noopener nofollow">#k8s</a> <a href=".?query=tag:kubernetes" class="tag" target="_blank" rel="noopener nofollow">#kubernetes</a> <a href=".?query=tag:security" class="tag" target="_blank" rel="noopener nofollow">#security</a> <a href=".?query=tag:secrets" class="tag" target="_blank" rel="noopener nofollow">#secrets</a> ]]></description><link>virtualization/kubernetes/kubernetes-secrets.html</link><guid isPermaLink="false">Virtualization/Kubernetes/Kubernetes Secrets.md</guid><pubDate>Mon, 25 Nov 2024 18:27:25 GMT</pubDate></item><item><title><![CDATA[Kublet]]></title><description><![CDATA[<a class="tag" href="?query=tag:kubelet" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubelet</a> <a class="tag" href="?query=tag:k8s" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#k8s</a> <a class="tag" href="?query=tag:kubernetes" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#kubernetes</a> 
  <br>Restart Kublet<br>systemctl restart kubelet
 <br>hostnamectl --static set-hostname green-machine-1
